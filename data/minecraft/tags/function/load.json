@@ -1,6 +1,6 @@
 {
   "values": [
-    "#dun:load",
-    "#util:load"
+    "#util:load",
+    "#dun:load"
   ]
 }
