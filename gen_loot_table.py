@@ -49,7 +49,7 @@ def gen_lt(id, tier: int, name: str, lore: object) -> Optional[dict[str]]:
         ]
     }
 
-    if name is None:
+    if name is None or name == "":
         print("name is None")
     else:
         data["pools"][0]["entries"][0]["functions"].append({"function": "minecraft:set_name", "name": name})

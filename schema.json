@@ -11,12 +11,20 @@
             "id": {
               "type": "string"
             },
-            "name": {}
+            "tier": {
+              "type": "integer"
+            },
+            "name": {},
+            "lore": {}
           },
-          "required": ["id", "name"]
+          "required": [
+            "id"
+          ]
         }
       ]
     }
   },
-  "required": ["items"]
+  "required": [
+    "items"
+  ]
 }
