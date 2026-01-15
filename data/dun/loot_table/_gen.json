@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  {
+                    "text": ""
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "dun": {
+                    "tier": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}
