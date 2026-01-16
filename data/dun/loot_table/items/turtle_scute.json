@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_scute",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "dun": {
+                    "tier": 1
+                  }
+                },
+                "minecraft:lore": [
+                  "lore"
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "name"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
