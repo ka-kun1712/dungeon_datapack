@@ -3,7 +3,7 @@ from typing import Optional
 import json
 import os
 
-OUTDIR = "gen/"
+OUTDIR = "data/dun/loot_table/items"
 
 
 def main():
@@ -17,7 +17,7 @@ def main():
         # gen lt
         loot_table_str = gen_lt(v["id"], v["tier"], v["name"], v["lore"])
         formatted_id = str(v["id"]).removeprefix("minecraft:")
-        with open(f"gen/{formatted_id}.json", mode="w") as f:
+        with open(f"{OUTDIR}/{formatted_id}.json", mode="w") as f:
             json.dump(loot_table_str, f, indent=2)
 
 
