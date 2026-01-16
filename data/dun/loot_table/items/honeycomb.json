@@ -17,10 +17,6 @@
                   }
                 }
               }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": "カタツムリの殻"
             }
           ]
         }

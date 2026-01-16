@@ -20,7 +20,10 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "干上がった海洋の心"
+              "name": {
+                "text": "干上がった海洋の心",
+                "italic": false
+              }
             }
           ]
         }

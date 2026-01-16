@@ -20,7 +20,10 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "羊羹"
+              "name": {
+                "text": "羊羹",
+                "italic": false
+              }
             }
           ]
         }

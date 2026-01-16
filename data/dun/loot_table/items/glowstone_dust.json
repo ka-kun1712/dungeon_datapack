@@ -20,7 +20,10 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "きれいな粉"
+              "name": {
+                "text": "きれいな粉",
+                "italic": false
+              }
             }
           ]
         }

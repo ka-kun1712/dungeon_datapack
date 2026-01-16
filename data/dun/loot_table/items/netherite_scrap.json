@@ -20,7 +20,10 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "義理チョコ"
+              "name": {
+                "text": "義理チョコ",
+                "italic": false
+              }
             }
           ]
         }

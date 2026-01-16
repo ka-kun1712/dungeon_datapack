@@ -20,7 +20,10 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "紫キャベツ"
+              "name": {
+                "text": "紫キャベツ",
+                "italic": false
+              }
             }
           ]
         }

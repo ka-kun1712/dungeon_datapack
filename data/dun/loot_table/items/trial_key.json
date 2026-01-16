@@ -20,7 +20,10 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "普通の鍵"
+              "name": {
+                "text": "普通の鍵",
+                "italic": false
+              }
             }
           ]
         }

@@ -20,7 +20,10 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "幸運の壺"
+              "name": {
+                "text": "幸運の壺",
+                "italic": false
+              }
             }
           ]
         }

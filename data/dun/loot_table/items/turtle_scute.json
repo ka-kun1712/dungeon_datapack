@@ -20,7 +20,10 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "干からびたスライム"
+              "name": {
+                "text": "干からびたスライム",
+                "italic": false
+              }
             }
           ]
         }

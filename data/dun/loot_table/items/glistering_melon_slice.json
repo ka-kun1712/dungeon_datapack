@@ -20,7 +20,10 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "ピカピカスイカ"
+              "name": {
+                "text": "ピカピカスイカ",
+                "italic": false
+              }
             }
           ]
         }

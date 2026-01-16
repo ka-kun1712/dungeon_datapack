@@ -20,7 +20,10 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "何かの破片"
+              "name": {
+                "text": "何かの破片",
+                "italic": false
+              }
             }
           ]
         }

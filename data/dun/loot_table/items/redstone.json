@@ -17,6 +17,13 @@
                   }
                 }
               }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "赤い粉",
+                "italic": false
+              }
             }
           ]
         }

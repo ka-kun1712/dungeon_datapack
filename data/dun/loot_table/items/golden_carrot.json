@@ -20,7 +20,10 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "ピカピカニンジン"
+              "name": {
+                "text": "ピカピカニンジン",
+                "italic": false
+              }
             }
           ]
         }

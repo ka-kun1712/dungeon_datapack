@@ -15,73 +15,17 @@
       "lore": ""
     },
     {
-      "id": "minecraft:blaze_powder",
-      "tier": 2,
-      "price": 300,
-      "name": "チキンナゲット(衣)",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:brick",
-      "tier": 1,
-      "price": 40,
-      "name": "生チョコレート",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:clay_ball",
+      "id": "minecraft:ink_sac",
       "tier": 1,
       "price": 20,
       "name": "",
       "lore": ""
     },
     {
-      "id": "minecraft:coal",
+      "id": "minecraft:rabbit_hide",
       "tier": 1,
-      "price": 20,
-      "name": "",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:copper_ingot",
-      "tier": 2,
-      "price": 100,
-      "name": "",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:decorated_pot",
-      "tier": 9,
-      "price": 10000,
-      "name": "幸運の壺",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:diamond",
-      "tier": 4,
-      "price": 1800,
-      "name": "",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:disc_fragment_5",
-      "tier": 2,
-      "price": 500,
-      "name": "何かの破片",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:echo_shard",
-      "tier": 4,
-      "price": 2100,
-      "name": "",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:egg",
-      "tier": 1,
-      "price": 20,
-      "name": "",
+      "price": 10,
+      "name": "うさぎのぬいぐるみ",
       "lore": ""
     },
     {
@@ -99,44 +43,16 @@
       "lore": ""
     },
     {
-      "id": "minecraft:feather",
+      "id": "minecraft:nautilus_shell",
       "tier": 1,
-      "price": 20,
-      "name": "",
+      "price": 50,
+      "name": "カタツムリの殻",
       "lore": ""
     },
     {
-      "id": "minecraft:fermented_spider_eye",
-      "tier": 2,
-      "price": 100,
-      "name": "琥珀",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:fire_charge",
-      "tier": 3,
-      "price": 700,
-      "name": "干上がった海洋の心",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:flint",
+      "id": "minecraft:quartz",
       "tier": 1,
-      "price": 20,
-      "name": "粉",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:glistering_melon_slice",
-      "tier": 3,
-      "price": 600,
-      "name": "ピカピカスイカ",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:glow_ink_sac",
-      "tier": 2,
-      "price": 200,
+      "price": 80,
       "name": "",
       "lore": ""
     },
@@ -148,100 +64,30 @@
       "lore": ""
     },
     {
-      "id": "minecraft:gold_ingot",
-      "tier": 4,
-      "price": 1500,
-      "name": "",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:gold_nugget",
-      "tier": 2,
-      "price": 200,
-      "name": "",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:golden_carrot",
-      "tier": 3,
-      "price": 600,
-      "name": "ピカピカニンジン",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:heart_of_the_sea",
-      "tier": 5,
-      "price": 4000,
-      "name": "",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:heavy_core",
-      "tier": 5,
-      "price": 3500,
-      "name": "",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:honeycomb",
-      "tier": 1,
-      "price": 50,
-      "name": "カタツムリの殻",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:ink_sac",
-      "tier": 1,
-      "price": 20,
-      "name": "",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:iron_ingot",
-      "tier": 2,
-      "price": 300,
-      "name": "赤い粉",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:iron_nugget",
-      "tier": 1,
-      "price": 30,
-      "name": "",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:lapis_lazuli",
-      "tier": 3,
-      "price": 800,
-      "name": "",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:leather",
-      "tier": 1,
-      "price": 10,
-      "name": "うさぎのぬいぐるみ",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:nautilus_shell",
-      "tier": 1,
-      "price": 50,
-      "name": "",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:nether_brick",
-      "tier": 1,
-      "price": 60,
-      "name": "羊羹",
-      "lore": ""
-    },
-    {
       "id": "minecraft:nether_star",
       "tier": 5,
       "price": 5000,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:potion",
+      "tier": 2,
+      "price": 400,
+      "name": "カチコチジュース",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:diamond",
+      "tier": 4,
+      "price": 1800,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:egg",
+      "tier": 1,
+      "price": 20,
       "name": "",
       "lore": ""
     },
@@ -267,10 +113,213 @@
       "lore": ""
     },
     {
-      "id": "minecraft:ominous_trial_key",
+      "id": "minecraft:nether_brick",
+      "tier": 1,
+      "price": 60,
+      "name": "羊羹",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:honeycomb",
+      "tier": 1,
+      "price": 50,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:fire_charge",
+      "tier": 3,
+      "price": 700,
+      "name": "干上がった海洋の心",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:pufferfish",
+      "tier": 1,
+      "price": 30,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:blaze_powder",
+      "tier": 2,
+      "price": 300,
+      "name": "チキンナゲット(衣)",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:heavy_core",
+      "tier": 5,
+      "price": 3500,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:lapis_lazuli",
+      "tier": 3,
+      "price": 800,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:disc_fragment_5",
+      "tier": 2,
+      "price": 500,
+      "name": "何かの破片",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:redstone",
+      "tier": 2,
+      "price": 300,
+      "name": "赤い粉",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:brick",
+      "tier": 1,
+      "price": 40,
+      "name": "生チョコレート",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:feather",
+      "tier": 1,
+      "price": 20,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:flint",
+      "tier": 1,
+      "price": 20,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:heart_of_the_sea",
+      "tier": 5,
+      "price": 4000,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:glow_ink_sac",
+      "tier": 2,
+      "price": 200,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:turtle_scute",
+      "tier": 1,
+      "price": 80,
+      "name": "干からびたスライム",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:gold_ingot",
       "tier": 4,
-      "price": 1400,
-      "name": "装飾の施された鍵",
+      "price": 1500,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:glistering_melon_slice",
+      "tier": 3,
+      "price": 600,
+      "name": "ピカピカスイカ",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:gold_nugget",
+      "tier": 2,
+      "price": 200,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:raw_gold",
+      "tier": 2,
+      "price": 300,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:golden_carrot",
+      "tier": 3,
+      "price": 600,
+      "name": "ピカピカニンジン",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:potion",
+      "tier": 3,
+      "price": 1000,
+      "name": "ラッキージュース",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:decorated_pot",
+      "tier": 9,
+      "price": 10000,
+      "name": "幸運の壺",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:sugar",
+      "tier": 1,
+      "price": 20,
+      "name": "粉",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:potion",
+      "tier": 3,
+      "price": 800,
+      "name": "いたいのいたいのとんでけジュース",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:echo_shard",
+      "tier": 4,
+      "price": 2100,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:trial_key",
+      "tier": 3,
+      "price": 700,
+      "name": "普通の鍵",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:potion",
+      "tier": 3,
+      "price": 800,
+      "name": "消毒液",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:resin_clump",
+      "tier": 2,
+      "price": 100,
+      "name": "琥珀",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:resin_brick",
+      "tier": 1,
+      "price": 50,
+      "name": "グミ(エナジードリンク味)",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:potion",
+      "tier": 3,
+      "price": 800,
+      "name": "エナジードリンク",
       "lore": ""
     },
     {
@@ -283,36 +332,15 @@
     {
       "id": "minecraft:potion",
       "tier": 3,
-      "price": 1000,
-      "name": "ラッキージュース",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:potion",
-      "tier": 3,
-      "price": 800,
-      "name": "いたいのいたいのとんでけジュース",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:potion",
-      "tier": 3,
-      "price": 800,
-      "name": "消毒液",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:potion",
-      "tier": 3,
-      "price": 800,
-      "name": "エナジードリンク",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:potion",
-      "tier": 3,
       "price": 800,
       "name": "ぶくぶくジュース",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:coal",
+      "tier": 1,
+      "price": 20,
+      "name": "",
       "lore": ""
     },
     {
@@ -330,49 +358,7 @@
       "lore": ""
     },
     {
-      "id": "minecraft:potion",
-      "tier": 3,
-      "price": 800,
-      "name": "ムキムキジュース",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:potion",
-      "tier": 2,
-      "price": 400,
-      "name": "カチコチジュース",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:pufferfish",
-      "tier": 1,
-      "price": 30,
-      "name": "",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:quartz",
-      "tier": 1,
-      "price": 80,
-      "name": "",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:rabbit_hide",
-      "tier": 1,
-      "price": 10,
-      "name": "",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:raw_copper",
-      "tier": 1,
-      "price": 20,
-      "name": "",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:raw_gold",
+      "id": "minecraft:iron_ingot",
       "tier": 2,
       "price": 300,
       "name": "",
@@ -386,24 +372,52 @@
       "lore": ""
     },
     {
-      "id": "minecraft:redstone",
-      "tier": 2,
-      "price": 300,
+      "id": "minecraft:iron_nugget",
+      "tier": 1,
+      "price": 30,
       "name": "",
       "lore": ""
     },
     {
-      "id": "minecraft:resin_brick",
-      "tier": 1,
-      "price": 50,
-      "name": "グミ(エナジードリンク味)",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:resin_clump",
+      "id": "minecraft:copper_ingot",
       "tier": 2,
       "price": 100,
       "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:raw_copper",
+      "tier": 1,
+      "price": 20,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:clay_ball",
+      "tier": 1,
+      "price": 20,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:fermented_spider_eye",
+      "tier": 2,
+      "price": 100,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:leather",
+      "tier": 1,
+      "price": 10,
+      "name": "",
+      "lore": ""
+    },
+    {
+      "id": "minecraft:ominous_trial_key",
+      "tier": 4,
+      "price": 1400,
+      "name": "装飾の施された鍵",
       "lore": ""
     },
     {
@@ -414,24 +428,10 @@
       "lore": ""
     },
     {
-      "id": "minecraft:sugar",
-      "tier": 1,
-      "price": 20,
-      "name": "",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:trial_key",
+      "id": "minecraft:potion",
       "tier": 3,
-      "price": 700,
-      "name": "普通の鍵",
-      "lore": ""
-    },
-    {
-      "id": "minecraft:turtle_scute",
-      "tier": 1,
-      "price": 80,
-      "name": "干からびたスライム",
+      "price": 800,
+      "name": "ムキムキジュース",
       "lore": ""
     }
   ]

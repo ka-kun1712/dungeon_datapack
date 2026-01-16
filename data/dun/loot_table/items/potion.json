@@ -12,15 +12,18 @@
               "components": {
                 "minecraft:custom_data": {
                   "dun": {
-                    "tier": 2,
-                    "price": 400
+                    "tier": 3,
+                    "price": 800
                   }
                 }
               }
             },
             {
               "function": "minecraft:set_name",
-              "name": "カチコチジュース"
+              "name": {
+                "text": "ムキムキジュース",
+                "italic": false
+              }
             }
           ]
         }

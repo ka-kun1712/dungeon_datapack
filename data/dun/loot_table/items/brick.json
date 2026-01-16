@@ -20,7 +20,10 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "生チョコレート"
+              "name": {
+                "text": "生チョコレート",
+                "italic": false
+              }
             }
           ]
         }

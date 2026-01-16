@@ -20,7 +20,10 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "チキンナゲット(衣)"
+              "name": {
+                "text": "チキンナゲット(衣)",
+                "italic": false
+              }
             }
           ]
         }

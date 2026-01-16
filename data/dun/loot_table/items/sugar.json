@@ -17,6 +17,13 @@
                   }
                 }
               }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "粉",
+                "italic": false
+              }
             }
           ]
         }

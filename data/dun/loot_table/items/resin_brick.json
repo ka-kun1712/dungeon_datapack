@@ -20,7 +20,10 @@
             },
             {
               "function": "minecraft:set_name",
-              "name": "グミ(エナジードリンク味)"
+              "name": {
+                "text": "グミ(エナジードリンク味)",
+                "italic": false
+              }
             }
           ]
         }
