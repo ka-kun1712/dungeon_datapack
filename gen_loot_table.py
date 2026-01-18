@@ -49,7 +49,7 @@ def gen_lt(id, tier: int, price: int, name: str, lore: object) -> Optional[dict[
                         "functions": [
                             {
                                 "function": "minecraft:set_components",
-                                "components": {"minecraft:custom_data": {"dun": {"tier": tier, "price": price}}},
+                                "components": {"minecraft:custom_data": {"looting": {"tier": tier, "price": price}}},
                             }
                         ],
                     }

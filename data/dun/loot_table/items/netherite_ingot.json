@@ -11,7 +11,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "dun": {
+                  "looting": {
                     "tier": 5,
                     "price": 4500
                   }
