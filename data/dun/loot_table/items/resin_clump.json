@@ -15,14 +15,8 @@
                     "tier": 2,
                     "price": 100
                   }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "琥珀",
-                "italic": false
+                },
+                "minecraft:custom_name": "琥珀"
               }
             }
           ]

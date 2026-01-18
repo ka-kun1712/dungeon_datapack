@@ -15,14 +15,8 @@
                     "tier": 3,
                     "price": 800
                   }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "ムキムキジュース",
-                "italic": false
+                },
+                "minecraft:custom_name": "ムキムキジュース"
               }
             }
           ]

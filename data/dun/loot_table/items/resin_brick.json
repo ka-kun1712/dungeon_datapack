@@ -15,14 +15,8 @@
                     "tier": 1,
                     "price": 50
                   }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "グミ(エナジードリンク味)",
-                "italic": false
+                },
+                "minecraft:custom_name": "グミ(エナジードリンク味)"
               }
             }
           ]

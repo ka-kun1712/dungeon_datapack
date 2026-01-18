@@ -15,14 +15,8 @@
                     "tier": 9,
                     "price": 10000
                   }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "幸運の壺",
-                "italic": false
+                },
+                "minecraft:custom_name": "幸運の壺"
               }
             }
           ]

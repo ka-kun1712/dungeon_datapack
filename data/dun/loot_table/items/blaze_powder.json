@@ -15,14 +15,8 @@
                     "tier": 2,
                     "price": 300
                   }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "チキンナゲット(衣)",
-                "italic": false
+                },
+                "minecraft:custom_name": "チキンナゲット(衣)"
               }
             }
           ]

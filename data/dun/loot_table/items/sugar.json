@@ -15,14 +15,8 @@
                     "tier": 1,
                     "price": 20
                   }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "粉",
-                "italic": false
+                },
+                "minecraft:custom_name": "粉"
               }
             }
           ]

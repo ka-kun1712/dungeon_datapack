@@ -15,14 +15,8 @@
                     "tier": 1,
                     "price": 10
                   }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "うさぎのぬいぐるみ",
-                "italic": false
+                },
+                "minecraft:custom_name": "うさぎのぬいぐるみ"
               }
             }
           ]

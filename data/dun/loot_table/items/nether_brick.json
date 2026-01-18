@@ -15,14 +15,8 @@
                     "tier": 1,
                     "price": 60
                   }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "羊羹",
-                "italic": false
+                },
+                "minecraft:custom_name": "羊羹"
               }
             }
           ]

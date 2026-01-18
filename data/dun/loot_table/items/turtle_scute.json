@@ -15,14 +15,8 @@
                     "tier": 1,
                     "price": 80
                   }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "干からびたスライム",
-                "italic": false
+                },
+                "minecraft:custom_name": "干からびたスライム"
               }
             }
           ]

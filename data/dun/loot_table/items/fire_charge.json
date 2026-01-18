@@ -15,14 +15,8 @@
                     "tier": 3,
                     "price": 700
                   }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "干上がった海洋の心",
-                "italic": false
+                },
+                "minecraft:custom_name": "干上がった海洋の心"
               }
             }
           ]

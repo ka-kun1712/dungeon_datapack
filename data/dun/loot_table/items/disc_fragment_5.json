@@ -15,14 +15,8 @@
                     "tier": 2,
                     "price": 500
                   }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "何かの破片",
-                "italic": false
+                },
+                "minecraft:custom_name": "何かの破片"
               }
             }
           ]

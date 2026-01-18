@@ -15,14 +15,8 @@
                     "tier": 3,
                     "price": 600
                   }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "ピカピカスイカ",
-                "italic": false
+                },
+                "minecraft:custom_name": "ピカピカスイカ"
               }
             }
           ]

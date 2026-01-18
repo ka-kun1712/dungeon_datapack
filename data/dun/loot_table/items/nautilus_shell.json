@@ -15,14 +15,8 @@
                     "tier": 1,
                     "price": 50
                   }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "カタツムリの殻",
-                "italic": false
+                },
+                "minecraft:custom_name": "カタツムリの殻"
               }
             }
           ]

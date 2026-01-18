@@ -15,14 +15,8 @@
                     "tier": 3,
                     "price": 700
                   }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "普通の鍵",
-                "italic": false
+                },
+                "minecraft:custom_name": "普通の鍵"
               }
             }
           ]

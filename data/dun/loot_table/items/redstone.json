@@ -15,14 +15,8 @@
                     "tier": 2,
                     "price": 300
                   }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "赤い粉",
-                "italic": false
+                },
+                "minecraft:custom_name": "赤い粉"
               }
             }
           ]

@@ -15,14 +15,8 @@
                     "tier": 2,
                     "price": 100
                   }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "チキンナゲット(肉)",
-                "italic": false
+                },
+                "minecraft:custom_name": "チキンナゲット(肉)"
               }
             }
           ]

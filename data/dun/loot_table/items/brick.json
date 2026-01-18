@@ -15,14 +15,8 @@
                     "tier": 1,
                     "price": 40
                   }
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "生チョコレート",
-                "italic": false
+                },
+                "minecraft:custom_name": "生チョコレート"
               }
             }
           ]
