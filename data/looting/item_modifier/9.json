@@ -1,0 +1,17 @@
+{
+  "function": "minecraft:set_name",
+  "entity": "this",
+  "name": {
+    "text": " ",
+    "color": "red",
+    "extra": [
+      { "text": "[？？？？？]" },
+      " ",
+      {
+        "entity": "@s",
+        "nbt": "SelectedItem.components.minecraft:custom_data.looting.name",
+        "interpret": true
+      }
+    ]
+  }
+}
