@@ -13,8 +13,20 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 80
+                    "price": 80,
+                    "name": {
+                      "text": "マイタケ",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "何故か食べる手が動かない"
+                    ]
                   }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
                 }
               }
             }

@@ -12,12 +12,20 @@
               "components": {
                 "minecraft:custom_data": {
                   "looting": {
-                    "tier": 3,
-                    "price": 800
+                    "tier": 2,
+                    "price": 400,
+                    "name": {
+                      "text": "カチコチジュース",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "奇妙な色のジュース 飲むと足が遅くなる代わりに敵の攻撃を弱くできる"
+                    ]
                   }
                 },
                 "minecraft:custom_name": {
-                  "text": "ムキムキジュース",
+                  "text": "?????",
                   "italic": false
                 }
               }

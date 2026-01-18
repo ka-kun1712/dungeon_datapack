@@ -13,8 +13,20 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 20
+                    "price": 20,
+                    "name": {
+                      "text": "尖った石",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "他の石に比べてとても尖っている 触ると痛い"
+                    ]
                   }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
                 }
               }
             }

@@ -13,11 +13,19 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 2,
-                    "price": 500
+                    "price": 500,
+                    "name": {
+                      "text": "何かの破片",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "破片だ 触ると痛い"
+                    ]
                   }
                 },
                 "minecraft:custom_name": {
-                  "text": "何かの破片",
+                  "text": "?????",
                   "italic": false
                 }
               }

@@ -13,11 +13,19 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 4,
-                    "price": 1400
+                    "price": 1400,
+                    "name": {
+                      "text": "装飾の施された鍵",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "職人の魂を感じる鍵 何に使うかは未だにわからない"
+                    ]
                   }
                 },
                 "minecraft:custom_name": {
-                  "text": "装飾の施された鍵",
+                  "text": "?????",
                   "italic": false
                 }
               }

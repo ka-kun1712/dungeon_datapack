@@ -13,11 +13,16 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 80
+                    "price": 80,
+                    "name": {
+                      "text": "干からびたスライム",
+                      "italic": false,
+                      "color": "white"
+                    }
                   }
                 },
                 "minecraft:custom_name": {
-                  "text": "干からびたスライム",
+                  "text": "?????",
                   "italic": false
                 }
               }

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/amethyst_shard"
+          "value": "dun:items/decorated_pot"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/armadillo_scute"
+          "value": "dun:items/nether_star"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/ink_sac"
+          "value": "dun:items/netherite_ingot"
         }
       ]
     },
@@ -32,7 +32,16 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/rabbit_hide"
+          "value": "dun:items/heavy_core"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/heart_of_the_sea"
         }
       ]
     },
@@ -59,7 +68,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/nautilus_shell"
+          "value": "dun:items/diamond"
         }
       ]
     },
@@ -68,7 +77,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/quartz"
+          "value": "dun:items/netherite_scrap"
         }
       ]
     },
@@ -77,7 +86,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/glowstone_dust"
+          "value": "dun:items/gold_ingot"
         }
       ]
     },
@@ -86,7 +95,61 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/nether_star"
+          "value": "dun:items/echo_shard"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/ominous_trial_key"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/amethyst_shard"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/fire_charge"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/lapis_lazuli"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/glistering_melon_slice"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/golden_carrot"
         }
       ]
     },
@@ -104,7 +167,232 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/diamond"
+          "value": "dun:items/potion"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/trial_key"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/potion"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/potion"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/potion"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/potion"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/potion"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/potion"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/armadillo_scute"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/glowstone_dust"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/potion"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/blaze_powder"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/disc_fragment_5"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/redstone"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/glow_ink_sac"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/gold_nugget"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/raw_gold"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/resin_clump"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/popped_chorus_fruit"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/iron_ingot"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/copper_ingot"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/fermented_spider_eye"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/ink_sac"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/rabbit_hide"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/nautilus_shell"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dun:items/quartz"
         }
       ]
     },
@@ -131,24 +419,6 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/netherite_ingot"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/netherite_scrap"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "value": "dun:items/nether_brick"
         }
       ]
@@ -167,61 +437,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/fire_charge"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "value": "dun:items/pufferfish"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/blaze_powder"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/heavy_core"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/lapis_lazuli"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/disc_fragment_5"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/redstone"
         }
       ]
     },
@@ -257,88 +473,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/heart_of_the_sea"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/glow_ink_sac"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "value": "dun:items/turtle_scute"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/gold_ingot"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/glistering_melon_slice"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/gold_nugget"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/raw_gold"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/golden_carrot"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/potion"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/decorated_pot"
         }
       ]
     },
@@ -356,51 +491,6 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/potion"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/echo_shard"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/trial_key"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/potion"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/resin_clump"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "value": "dun:items/resin_brick"
         }
       ]
@@ -410,61 +500,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/potion"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/popped_chorus_fruit"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/potion"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "value": "dun:items/coal"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/potion"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/potion"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/iron_ingot"
         }
       ]
     },
@@ -491,15 +527,6 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/copper_ingot"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "value": "dun:items/raw_copper"
         }
       ]
@@ -518,15 +545,6 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/fermented_spider_eye"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "value": "dun:items/leather"
         }
       ]
@@ -536,25 +554,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dun:items/ominous_trial_key"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "value": "dun:items/rotten_flesh"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "value": "dun:items/potion"
         }
       ]
     }

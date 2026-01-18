@@ -13,11 +13,19 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 3,
-                    "price": 700
+                    "price": 700,
+                    "name": {
+                      "text": "干上がった海洋の心",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "完全に干からびている 無惨だ..."
+                    ]
                   }
                 },
                 "minecraft:custom_name": {
-                  "text": "干上がった海洋の心",
+                  "text": "?????",
                   "italic": false
                 }
               }

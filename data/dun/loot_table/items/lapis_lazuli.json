@@ -13,8 +13,20 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 3,
-                    "price": 800
+                    "price": 800,
+                    "name": {
+                      "text": "青い顔料の元",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "砕くと綺麗な青い顔料ができる あの有名画家も使っていたらしい"
+                    ]
                   }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
                 }
               }
             }

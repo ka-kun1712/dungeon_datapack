@@ -13,11 +13,19 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 20
+                    "price": 20,
+                    "name": {
+                      "text": "粉",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "何かわからない粉は絶対に舐めてはいけない"
+                    ]
                   }
                 },
                 "minecraft:custom_name": {
-                  "text": "粉",
+                  "text": "?????",
                   "italic": false
                 }
               }

@@ -13,11 +13,19 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 3,
-                    "price": 700
+                    "price": 700,
+                    "name": {
+                      "text": "普通の鍵",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "鍵だ 一体何の...？"
+                    ]
                   }
                 },
                 "minecraft:custom_name": {
-                  "text": "普通の鍵",
+                  "text": "?????",
                   "italic": false
                 }
               }

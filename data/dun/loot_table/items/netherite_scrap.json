@@ -13,11 +13,19 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 4,
-                    "price": 2500
+                    "price": 2500,
+                    "name": {
+                      "text": "義理チョコ",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "あくまでも\"義理\" ちょっと甘酸っぱい"
+                    ]
                   }
                 },
                 "minecraft:custom_name": {
-                  "text": "義理チョコ",
+                  "text": "?????",
                   "italic": false
                 }
               }

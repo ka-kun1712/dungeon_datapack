@@ -13,11 +13,19 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 10
+                    "price": 10,
+                    "name": {
+                      "text": "うさぎのぬいぐるみ",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "ぬいぐるみだ！ かわいいね！"
+                    ]
                   }
                 },
                 "minecraft:custom_name": {
-                  "text": "うさぎのぬいぐるみ",
+                  "text": "?????",
                   "italic": false
                 }
               }

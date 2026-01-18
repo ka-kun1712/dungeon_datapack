@@ -13,8 +13,17 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 2,
-                    "price": 300
+                    "price": 300,
+                    "name": {
+                      "text": "金色の石",
+                      "italic": false,
+                      "color": "white"
+                    }
                   }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
                 }
               }
             }

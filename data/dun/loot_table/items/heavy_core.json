@@ -13,8 +13,17 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 5,
-                    "price": 3500
+                    "price": 3500,
+                    "name": {
+                      "text": "ヘビーコア",
+                      "italic": false,
+                      "color": "white"
+                    }
                   }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
                 }
               }
             }

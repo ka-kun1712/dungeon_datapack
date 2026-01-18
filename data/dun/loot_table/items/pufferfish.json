@@ -13,8 +13,20 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 30
+                    "price": 30,
+                    "name": {
+                      "text": "ふぐ",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "毒があるので食べてはいけない 捌くことができれば食べられそうだ"
+                    ]
                   }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
                 }
               }
             }

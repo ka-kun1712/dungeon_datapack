@@ -13,11 +13,16 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 50
+                    "price": 50,
+                    "name": {
+                      "text": "カタツムリの殻",
+                      "italic": false,
+                      "color": "white"
+                    }
                   }
                 },
                 "minecraft:custom_name": {
-                  "text": "カタツムリの殻",
+                  "text": "?????",
                   "italic": false
                 }
               }

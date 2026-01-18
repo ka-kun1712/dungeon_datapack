@@ -13,8 +13,20 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 5,
-                    "price": 5000
+                    "price": 5000,
+                    "name": {
+                      "text": "星の欠片",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "綺麗な星の欠片 その希少性からとても高く売れる"
+                    ]
                   }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
                 }
               }
             }

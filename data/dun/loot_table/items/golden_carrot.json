@@ -13,11 +13,16 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 3,
-                    "price": 600
+                    "price": 600,
+                    "name": {
+                      "text": "ピカピカニンジン",
+                      "italic": false,
+                      "color": "white"
+                    }
                   }
                 },
                 "minecraft:custom_name": {
-                  "text": "ピカピカニンジン",
+                  "text": "?????",
                   "italic": false
                 }
               }

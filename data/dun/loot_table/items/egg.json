@@ -13,8 +13,20 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 20
+                    "price": 20,
+                    "name": {
+                      "text": "何かの卵",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "一体何の...？"
+                    ]
                   }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
                 }
               }
             }

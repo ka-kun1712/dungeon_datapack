@@ -13,8 +13,20 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 4,
-                    "price": 1800
+                    "price": 1800,
+                    "name": {
+                      "text": "ダイアモンド",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "砕けない"
+                    ]
                   }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
                 }
               }
             }

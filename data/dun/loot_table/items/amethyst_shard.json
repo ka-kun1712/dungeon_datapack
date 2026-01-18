@@ -13,8 +13,20 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 3,
-                    "price": 700
+                    "price": 700,
+                    "name": {
+                      "text": "紫の宝石",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "光を通す綺麗な宝石 まあまあ高く売れる"
+                    ]
                   }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
                 }
               }
             }

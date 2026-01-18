@@ -13,8 +13,20 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 20
+                    "price": 20,
+                    "name": {
+                      "text": "壊れた羽ペン",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "羽ペンの残骸 無惨だ..."
+                    ]
                   }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
                 }
               }
             }

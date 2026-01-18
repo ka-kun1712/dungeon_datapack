@@ -13,11 +13,16 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 9,
-                    "price": 10000
+                    "price": 10000,
+                    "name": {
+                      "text": "幸運の壺",
+                      "italic": false,
+                      "color": "white"
+                    }
                   }
                 },
                 "minecraft:custom_name": {
-                  "text": "幸運の壺",
+                  "text": "?????",
                   "italic": false
                 }
               }

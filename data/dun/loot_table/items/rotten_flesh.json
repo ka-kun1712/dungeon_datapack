@@ -13,8 +13,20 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 1,
-                    "price": 10
+                    "price": 10,
+                    "name": {
+                      "text": "ヤバい肉",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "明らかにヤバい肉 食べてはいけない"
+                    ]
                   }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
                 }
               }
             }

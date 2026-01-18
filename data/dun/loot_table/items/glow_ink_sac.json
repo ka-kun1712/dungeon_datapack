@@ -13,8 +13,20 @@
                 "minecraft:custom_data": {
                   "looting": {
                     "tier": 2,
-                    "price": 200
+                    "price": 200,
+                    "name": {
+                      "text": "光る墨袋",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    "lore": [
+                      "世にも珍しい光るイカスミ ちょっとだけ高く売れる"
+                    ]
                   }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
                 }
               }
             }
