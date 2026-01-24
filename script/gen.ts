@@ -133,10 +133,10 @@ function genLt(v: Item) {
                       name: { text: name, italic: false, color: "white" },
                     },
                   },
-                  "minecraft:custom_name": JSON.stringify({
+                  "minecraft:custom_name": {
                     text: DEFAULT_NAME,
                     italic: false,
-                  }),
+                  },
                 },
               },
             ],
