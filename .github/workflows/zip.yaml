@@ -3,11 +3,11 @@ name: Zip
 on:
   workflow_dispatch:
   push:
-    tags: "v*.*.*"
+    tags: ["v*.*.*"]
 
 env:
-  prefix: unipack_data
-  ignore: '".*/*" "dist/*" ".gitignore" "*/dev/*"'
+  prefix: dun_data
+  ignore: '".*/*" "dist/*" ".gitignore" "*/dev/*" "script/*"'
 
 jobs:
   zip:
