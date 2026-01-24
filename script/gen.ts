@@ -1,6 +1,13 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
+const ROOT_DIR = "../";
+
+const LOOT_TABLE_DIR = path.join(ROOT_DIR, "data/dun/loot_table");
+const ITEMS_FILE_PATH = "items.json";
+const ALL_ITEMS_FILENAME = "all_items.json";
+const DEFAULT_NAME = "?????";
+
 interface Item {
   id: string;
   tier: number;
@@ -31,17 +38,10 @@ interface LootTableEntry {
   value: string;
 }
 
-const ROOT_DIR = "../";
-
-const LOOT_TABLE_DIR = "data/dun/loot_table";
-const ITEMS_FILE = "items.json";
-const ALL_ITEMS_FILE = "all_items.json";
-const DEFAULT_NAME = "?????";
-
 async function main() {
   try {
     const table: ItemsTable = JSON.parse(
-      await fs.readFile(ITEMS_FILE, "utf-8"),
+      await fs.readFile(ITEMS_FILE_PATH, "utf-8"),
     );
 
     const all_loot_table_data: LootTable<LootTableEntry> = { pools: [] };
@@ -52,7 +52,6 @@ async function main() {
 
       const formatted_id = v.id.replace("minecraft:", "");
       const file_path = path.join(
-        ROOT_DIR,
         LOOT_TABLE_DIR,
         "items",
         `${formatted_id}.json`,
@@ -73,7 +72,7 @@ async function main() {
     }
 
     await fs.writeFile(
-      path.join(ROOT_DIR, LOOT_TABLE_DIR, ALL_ITEMS_FILE),
+      path.join(LOOT_TABLE_DIR, ALL_ITEMS_FILENAME),
       JSON.stringify(all_loot_table_data, null, 2),
       "utf-8",
     );
