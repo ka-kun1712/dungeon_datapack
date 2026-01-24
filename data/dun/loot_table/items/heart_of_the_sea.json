@@ -15,16 +15,16 @@
                     "tier": 5,
                     "price": 4000,
                     "name": {
-                      "text": "海の心",
+                      "text": "海洋の心",
                       "italic": false,
                       "color": "white"
-                    }
+                    },
+                    "lore": [
+                      "海を統べる者が遺した遺物 持っていると海の感情を感じる"
+                    ]
                   }
                 },
-                "minecraft:custom_name": {
-                  "text": "?????",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"?????\",\"italic\":false}"
               }
             }
           ]

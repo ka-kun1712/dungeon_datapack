@@ -18,13 +18,13 @@
                       "text": "カタツムリの殻",
                       "italic": false,
                       "color": "white"
-                    }
+                    },
+                    "lore": [
+                      "カタツムリから殻を取ったらナメクジになるんだっけ"
+                    ]
                   }
                 },
-                "minecraft:custom_name": {
-                  "text": "?????",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"?????\",\"italic\":false}"
               }
             }
           ]

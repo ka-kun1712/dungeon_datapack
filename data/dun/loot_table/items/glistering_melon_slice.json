@@ -18,13 +18,13 @@
                       "text": "ピカピカスイカ",
                       "italic": false,
                       "color": "white"
-                    }
+                    },
+                    "lore": [
+                      "純金の欠片が埋め込まれたスイカ 食べるとちょっと回復力が上がる"
+                    ]
                   }
                 },
-                "minecraft:custom_name": {
-                  "text": "?????",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"?????\",\"italic\":false}"
               }
             }
           ]

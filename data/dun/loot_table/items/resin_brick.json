@@ -18,13 +18,13 @@
                       "text": "グミ(エナジードリンク味)",
                       "italic": false,
                       "color": "white"
-                    }
+                    },
+                    "lore": [
+                      "エナドリほど最強の飲み物は無い"
+                    ]
                   }
                 },
-                "minecraft:custom_name": {
-                  "text": "?????",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"?????\",\"italic\":false}"
               }
             }
           ]

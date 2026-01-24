@@ -18,13 +18,13 @@
                       "text": "チキンナゲット(肉)",
                       "italic": false,
                       "color": "white"
-                    }
+                    },
+                    "lore": [
+                      "世の中にはチキンナゲットの衣を剥がして肉の部分だけ食べる人もいるようだ"
+                    ]
                   }
                 },
-                "minecraft:custom_name": {
-                  "text": "?????",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"?????\",\"italic\":false}"
               }
             }
           ]

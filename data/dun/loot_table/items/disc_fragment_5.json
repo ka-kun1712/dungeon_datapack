@@ -20,14 +20,11 @@
                       "color": "white"
                     },
                     "lore": [
-                      "破片だ 触ると痛い"
+                      "触ると痛い"
                     ]
                   }
                 },
-                "minecraft:custom_name": {
-                  "text": "?????",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"?????\",\"italic\":false}"
               }
             }
           ]

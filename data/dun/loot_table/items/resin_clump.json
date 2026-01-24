@@ -18,13 +18,13 @@
                       "text": "琥珀",
                       "italic": false,
                       "color": "white"
-                    }
+                    },
+                    "lore": [
+                      "稀に大昔の生物が入っていることがある その場合とても高く売れるだろう"
+                    ]
                   }
                 },
-                "minecraft:custom_name": {
-                  "text": "?????",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"?????\",\"italic\":false}"
               }
             }
           ]

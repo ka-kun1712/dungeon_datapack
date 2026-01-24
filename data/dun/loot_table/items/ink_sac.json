@@ -20,14 +20,11 @@
                       "color": "white"
                     },
                     "lore": [
-                      "実は体に良い"
+                      "実はおいしいだけではなく体に良い"
                     ]
                   }
                 },
-                "minecraft:custom_name": {
-                  "text": "?????",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"?????\",\"italic\":false}"
               }
             }
           ]

@@ -18,13 +18,13 @@
                       "text": "丸い宝石",
                       "italic": false,
                       "color": "white"
-                    }
+                    },
+                    "lore": [
+                      "猫の目のような模様の入った綺麗な丸い宝石 高く売れる"
+                    ]
                   }
                 },
-                "minecraft:custom_name": {
-                  "text": "?????",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"?????\",\"italic\":false}"
               }
             }
           ]

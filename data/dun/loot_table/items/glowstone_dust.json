@@ -20,14 +20,11 @@
                       "color": "white"
                     },
                     "lore": [
-                      "普通の粉よりちょっと綺麗"
+                      "普通の粉よりちょっと綺麗 ちょっとだけ高く売れる"
                     ]
                   }
                 },
-                "minecraft:custom_name": {
-                  "text": "?????",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"?????\",\"italic\":false}"
               }
             }
           ]

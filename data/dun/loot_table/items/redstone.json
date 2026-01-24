@@ -18,13 +18,13 @@
                       "text": "赤い粉",
                       "italic": false,
                       "color": "white"
-                    }
+                    },
+                    "lore": [
+                      "紅に染まった粉 たまに淡く光る"
+                    ]
                   }
                 },
-                "minecraft:custom_name": {
-                  "text": "?????",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"?????\",\"italic\":false}"
               }
             }
           ]

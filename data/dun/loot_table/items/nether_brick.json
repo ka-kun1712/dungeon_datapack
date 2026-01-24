@@ -18,13 +18,13 @@
                       "text": "羊羹",
                       "italic": false,
                       "color": "white"
-                    }
+                    },
+                    "lore": [
+                      "普通の羊羹よりちょっと硬いし色が濃い"
+                    ]
                   }
                 },
-                "minecraft:custom_name": {
-                  "text": "?????",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"?????\",\"italic\":false}"
               }
             }
           ]

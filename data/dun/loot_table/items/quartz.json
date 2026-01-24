@@ -20,14 +20,11 @@
                       "color": "white"
                     },
                     "lore": [
-                      "何故か食べる手が動かない"
+                      "きのこのはずだが何故か食べる手が動かない"
                     ]
                   }
                 },
-                "minecraft:custom_name": {
-                  "text": "?????",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"?????\",\"italic\":false}"
               }
             }
           ]

@@ -18,13 +18,13 @@
                       "text": "紫キャベツ",
                       "italic": false,
                       "color": "white"
-                    }
+                    },
+                    "lore": [
+                      "普通のキャベツよりも葉が厚いので食感が良い"
+                    ]
                   }
                 },
-                "minecraft:custom_name": {
-                  "text": "?????",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"?????\",\"italic\":false}"
               }
             }
           ]

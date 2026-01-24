@@ -15,16 +15,16 @@
                     "tier": 9,
                     "price": 10000,
                     "name": {
-                      "text": "幸運の",
+                      "text": "幸運の壺",
                       "italic": false,
                       "color": "white"
-                    }
+                    },
+                    "lore": [
+                      "伝説の職人が作ったとの噂がある壺 持っていると力を感じる 気がする...？"
+                    ]
                   }
                 },
-                "minecraft:custom_name": {
-                  "text": "?????",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"?????\",\"italic\":false}"
               }
             }
           ]

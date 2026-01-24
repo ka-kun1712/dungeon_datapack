@@ -18,13 +18,13 @@
                       "text": "蜂の巣の欠片",
                       "italic": false,
                       "color": "white"
-                    }
+                    },
+                    "lore": [
+                      "なんとかして頑張ったらハチミツが取れそうな... 流石に無理か..."
+                    ]
                   }
                 },
-                "minecraft:custom_name": {
-                  "text": "?????",
-                  "italic": false
-                }
+                "minecraft:custom_name": "{\"text\":\"?????\",\"italic\":false}"
               }
             }
           ]
