@@ -17,7 +17,7 @@ interface Item {
   price: number;
   weight?: number;
   name: string;
-  lore?: string | object;
+  lore?: (string | object)[];
 }
 
 interface ItemsTable {
@@ -149,7 +149,7 @@ function genLt(v: Item) {
   if (lore) {
     data.pools[0].entries[0].functions[0].components[
       "minecraft:custom_data"
-    ].looting.lore = [lore];
+    ].looting.lore = lore;
   }
 
   return data;

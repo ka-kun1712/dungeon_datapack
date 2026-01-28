@@ -1,0 +1,14 @@
+{
+  "function": "set_lore",
+  "entity": "this",
+  "mode": "append",
+  "lore": [
+    {
+      "storage": "looting:",
+      "nbt": "item_modifier.lore",
+      "italic": false,
+      "interpret": true,
+      "color": "white"
+    }
+  ]
+}

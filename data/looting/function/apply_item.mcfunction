@@ -3,12 +3,17 @@
 execute unless data entity @s SelectedItem.components."minecraft:custom_data".looting run return fail
 execute if data entity @s SelectedItem.components."minecraft:custom_data"{looting:{searched:true}} run return fail
 
+# debug only
+execute if data entity @s SelectedItem.components."minecraft:custom_data"{looting:{tier:0b}} run item modify entity @s weapon.mainhand looting:0
+
 execute if data entity @s SelectedItem.components."minecraft:custom_data"{looting:{tier:1b}} run item modify entity @s weapon.mainhand looting:1
 execute if data entity @s SelectedItem.components."minecraft:custom_data"{looting:{tier:2b}} run item modify entity @s weapon.mainhand looting:2
 execute if data entity @s SelectedItem.components."minecraft:custom_data"{looting:{tier:3b}} run item modify entity @s weapon.mainhand looting:3
 execute if data entity @s SelectedItem.components."minecraft:custom_data"{looting:{tier:4b}} run item modify entity @s weapon.mainhand looting:4
 execute if data entity @s SelectedItem.components."minecraft:custom_data"{looting:{tier:5b}} run item modify entity @s weapon.mainhand looting:5
 execute if data entity @s SelectedItem.components."minecraft:custom_data"{looting:{tier:9b}} run item modify entity @s weapon.mainhand looting:9
+
+function util:for_data {function:"looting:modifier/set_lore",data:"entity @s SelectedItem.components.minecraft:custom_data.looting.lore",args_id:0,for_id:0,start_index:0}
 
 playsound minecraft:entity.item.pickup master @s ~ ~ ~ 0.2 2
 
