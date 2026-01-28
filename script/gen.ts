@@ -146,7 +146,7 @@ function genLt(v: Item) {
     ],
   };
 
-  if (lore) {
+  if (lore.length != 0 && lore[0] != "") {
     data.pools[0].entries[0].functions[0].components[
       "minecraft:custom_data"
     ].looting.lore = lore;
