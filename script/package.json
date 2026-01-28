@@ -2,9 +2,9 @@
   "name": "script",
   "description": "",
   "scripts": {
-    "run": "tsx ./gen.ts"
+    "gen": "tsx ./gen.ts"
   },
-  "author": "",
+  "author": "monax_owo",
   "license": "UNLICENSED",
   "packageManager": "pnpm@10.28.1",
   "devDependencies": {
