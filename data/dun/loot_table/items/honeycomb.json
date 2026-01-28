@@ -16,7 +16,6 @@
                     "price": 50,
                     "name": {
                       "text": "蜂の巣の欠片",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

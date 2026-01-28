@@ -16,7 +16,6 @@
                     "price": 70,
                     "name": {
                       "text": "赤いきのこ",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

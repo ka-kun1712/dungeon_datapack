@@ -16,7 +16,6 @@
                     "price": 300,
                     "name": {
                       "text": "鉄",
-                      "italic": false,
                       "color": "white"
                     }
                   }

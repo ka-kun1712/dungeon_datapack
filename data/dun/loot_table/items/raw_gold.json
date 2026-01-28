@@ -16,7 +16,6 @@
                     "price": 300,
                     "name": {
                       "text": "金色の石",
-                      "italic": false,
                       "color": "white"
                     }
                   }

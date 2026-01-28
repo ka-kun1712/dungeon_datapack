@@ -16,7 +16,6 @@
                     "price": 100,
                     "name": {
                       "text": "チキンナゲット(肉)",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

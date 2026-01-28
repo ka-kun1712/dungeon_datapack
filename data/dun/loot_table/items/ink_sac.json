@@ -16,7 +16,6 @@
                     "price": 20,
                     "name": {
                       "text": "墨袋",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

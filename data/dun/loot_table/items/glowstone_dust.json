@@ -16,7 +16,6 @@
                     "price": 400,
                     "name": {
                       "text": "きれいな粉",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

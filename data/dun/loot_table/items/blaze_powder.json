@@ -16,7 +16,6 @@
                     "price": 300,
                     "name": {
                       "text": "チキンナゲット(衣)",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

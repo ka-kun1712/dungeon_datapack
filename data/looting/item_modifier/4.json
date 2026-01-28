@@ -4,6 +4,7 @@
   "name": {
     "text": " ",
     "color": "dark_purple",
+    "italic": false,
     "extra": [
       { "text": "[★★★★☆]" },
       " ",

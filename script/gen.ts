@@ -128,9 +128,9 @@ function genLt(v: Item) {
                 components: {
                   "minecraft:custom_data": {
                     looting: {
-                      tier: tier ?? 1,
+                      tier: tier,
                       price,
-                      name: { text: name, italic: false, color: "white" },
+                      name: { text: name, color: "white" },
                     },
                   },
                   "minecraft:custom_name": {

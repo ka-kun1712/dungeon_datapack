@@ -16,7 +16,6 @@
                     "price": 100,
                     "name": {
                       "text": "琥珀",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

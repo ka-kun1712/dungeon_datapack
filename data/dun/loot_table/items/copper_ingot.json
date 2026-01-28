@@ -16,7 +16,6 @@
                     "price": 100,
                     "name": {
                       "text": "銅",
-                      "italic": false,
                       "color": "white"
                     }
                   }

@@ -16,7 +16,6 @@
                     "price": 4500,
                     "name": {
                       "text": "本命チョコ",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

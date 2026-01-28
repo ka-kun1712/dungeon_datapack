@@ -16,7 +16,6 @@
                     "price": 1400,
                     "name": {
                       "text": "装飾の施された鍵",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

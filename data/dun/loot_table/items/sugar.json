@@ -16,7 +16,6 @@
                     "price": 20,
                     "name": {
                       "text": "粉",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

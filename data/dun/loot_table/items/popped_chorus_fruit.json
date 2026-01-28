@@ -16,7 +16,6 @@
                     "price": 200,
                     "name": {
                       "text": "紫キャベツ",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

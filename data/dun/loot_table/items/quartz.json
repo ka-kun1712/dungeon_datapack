@@ -16,7 +16,6 @@
                     "price": 80,
                     "name": {
                       "text": "マイタケ",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

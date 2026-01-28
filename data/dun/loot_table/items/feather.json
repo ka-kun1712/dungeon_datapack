@@ -16,7 +16,6 @@
                     "price": 20,
                     "name": {
                       "text": "壊れた羽ペン",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

@@ -16,7 +16,6 @@
                     "price": 2500,
                     "name": {
                       "text": "義理チョコ",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

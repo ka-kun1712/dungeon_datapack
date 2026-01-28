@@ -16,7 +16,6 @@
                     "price": 400,
                     "name": {
                       "text": "カチコチジュース",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

@@ -16,7 +16,6 @@
                     "price": 300,
                     "name": {
                       "text": "赤い粉",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

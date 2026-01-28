@@ -16,7 +16,6 @@
                     "price": 20,
                     "name": {
                       "text": "尖った石",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

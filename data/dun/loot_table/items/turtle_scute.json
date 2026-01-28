@@ -16,7 +16,6 @@
                     "price": 80,
                     "name": {
                       "text": "干からびたスライム",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

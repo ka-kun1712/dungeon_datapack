@@ -16,7 +16,6 @@
                     "price": 50,
                     "name": {
                       "text": "グミ(エナジードリンク味)",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

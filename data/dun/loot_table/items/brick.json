@@ -16,7 +16,6 @@
                     "price": 40,
                     "name": {
                       "text": "生チョコレート",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

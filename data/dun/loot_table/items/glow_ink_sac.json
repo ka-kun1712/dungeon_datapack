@@ -16,7 +16,6 @@
                     "price": 200,
                     "name": {
                       "text": "光る墨袋",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

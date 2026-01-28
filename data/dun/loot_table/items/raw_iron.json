@@ -16,7 +16,6 @@
                     "price": 60,
                     "name": {
                       "text": "鉄の原石",
-                      "italic": false,
                       "color": "white"
                     }
                   }

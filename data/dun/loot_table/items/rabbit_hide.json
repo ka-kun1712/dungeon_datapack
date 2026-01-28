@@ -16,7 +16,6 @@
                     "price": 10,
                     "name": {
                       "text": "うさぎのぬいぐるみ",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

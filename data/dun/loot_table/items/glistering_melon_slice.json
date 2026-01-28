@@ -16,7 +16,6 @@
                     "price": 600,
                     "name": {
                       "text": "ピカピカスイカ",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

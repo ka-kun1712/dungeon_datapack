@@ -16,7 +16,6 @@
                     "price": 1800,
                     "name": {
                       "text": "ダイアモンド",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

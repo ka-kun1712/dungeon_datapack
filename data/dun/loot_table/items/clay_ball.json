@@ -16,7 +16,6 @@
                     "price": 20,
                     "name": {
                       "text": "柔らかい塊",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

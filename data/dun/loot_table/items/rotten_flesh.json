@@ -16,7 +16,6 @@
                     "price": 10,
                     "name": {
                       "text": "ヤバい肉",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

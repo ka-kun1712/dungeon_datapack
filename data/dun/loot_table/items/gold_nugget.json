@@ -16,7 +16,6 @@
                     "price": 200,
                     "name": {
                       "text": "金の欠片",
-                      "italic": false,
                       "color": "white"
                     }
                   }

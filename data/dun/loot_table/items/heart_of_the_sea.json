@@ -16,7 +16,6 @@
                     "price": 4000,
                     "name": {
                       "text": "海洋の心",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

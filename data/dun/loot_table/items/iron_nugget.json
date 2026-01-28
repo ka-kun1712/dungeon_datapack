@@ -16,7 +16,6 @@
                     "price": 30,
                     "name": {
                       "text": "鉄塊",
-                      "italic": false,
                       "color": "white"
                     }
                   }

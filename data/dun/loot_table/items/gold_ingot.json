@@ -16,7 +16,6 @@
                     "price": 1500,
                     "name": {
                       "text": "10金",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

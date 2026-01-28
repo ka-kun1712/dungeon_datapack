@@ -16,7 +16,6 @@
                     "price": 500,
                     "name": {
                       "text": "何かの破片",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

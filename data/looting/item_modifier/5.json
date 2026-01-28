@@ -4,6 +4,7 @@
   "name": {
     "text": " ",
     "color": "gold",
+    "italic": false,
     "extra": [
       { "text": "[★★★★★]" },
       " ",

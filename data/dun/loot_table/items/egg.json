@@ -16,7 +16,6 @@
                     "price": 20,
                     "name": {
                       "text": "何かの卵",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

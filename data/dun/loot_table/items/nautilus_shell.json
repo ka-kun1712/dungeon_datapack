@@ -16,7 +16,6 @@
                     "price": 50,
                     "name": {
                       "text": "カタツムリの殻",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

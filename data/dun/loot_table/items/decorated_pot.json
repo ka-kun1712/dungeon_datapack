@@ -16,7 +16,6 @@
                     "price": 10000,
                     "name": {
                       "text": "幸運の壺",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

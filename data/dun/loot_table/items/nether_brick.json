@@ -16,7 +16,6 @@
                     "price": 60,
                     "name": {
                       "text": "羊羹",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

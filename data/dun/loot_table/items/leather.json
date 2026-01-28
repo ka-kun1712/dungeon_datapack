@@ -16,7 +16,6 @@
                     "price": 10,
                     "name": {
                       "text": "皮",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

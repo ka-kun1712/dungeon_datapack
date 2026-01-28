@@ -16,7 +16,6 @@
                     "price": 5000,
                     "name": {
                       "text": "星の欠片",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [

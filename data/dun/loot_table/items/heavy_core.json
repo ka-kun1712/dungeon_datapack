@@ -16,7 +16,6 @@
                     "price": 3500,
                     "name": {
                       "text": "ヘビーコア",
-                      "italic": false,
                       "color": "white"
                     },
                     "lore": [
