@@ -27,7 +27,9 @@
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
-                }
+                },
+                "minecraft:item_name": "",
+                "minecraft:rarity": "common"
               }
             },
             {

@@ -139,6 +139,8 @@ function genLt(v: Item) {
                     text: DEFAULT_NAME,
                     italic: false,
                   },
+                  "minecraft:item_name": "",
+                  "minecraft:rarity": "common",
                 },
               },
             ],
