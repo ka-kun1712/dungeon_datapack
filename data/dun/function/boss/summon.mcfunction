@@ -10,7 +10,7 @@ $summon zombie ~ ~ ~ {Tags:["summoning_boss","boss","$(tag)"],attributes:[{id:"m
 
 data modify entity @e[limit=1,tag=summoning_boss] data.dun.boss.id set from storage temp:boss summon.id
 
-data modify storage dun:boss targets append from storage temp:boss summon.id
+data modify storage dun: boss.targets append from storage temp:boss summon.id
 tellraw @a {storage:"temp:boss",nbt:"summon"}
 function dun:boss/_add_bossbar with storage temp:boss summon
 
