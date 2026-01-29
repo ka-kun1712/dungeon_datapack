@@ -1,0 +1,14 @@
+{
+  "display": {
+    "icon": {
+      "id": "chest"
+    },
+    "title": "Welcome to Dungeon!",
+    "description": "冒険家になる"
+  },
+  "criteria": {
+    "": {
+      "trigger": "location"
+    }
+  }
+}
