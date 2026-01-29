@@ -22,7 +22,8 @@
                       "海を統べる者が遺した遺物",
                       "持っていると海の感情を感じる"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/heart_of_the_sea"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

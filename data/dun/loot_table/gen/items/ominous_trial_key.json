@@ -22,7 +22,8 @@
                       "職人の魂を感じる鍵",
                       "何に使うかは未だにわからない"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/ominous_trial_key"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

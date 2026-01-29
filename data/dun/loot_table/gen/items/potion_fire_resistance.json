@@ -22,7 +22,8 @@
                       "おいしそうなジュース",
                       "飲むと火に強くなる"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/potion_fire_resistance"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

@@ -22,7 +22,8 @@
                       "所謂高級チョコレート",
                       "とても美味しい"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/brick"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

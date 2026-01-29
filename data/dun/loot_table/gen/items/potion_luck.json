@@ -22,7 +22,8 @@
                       "奇妙な色のジュース",
                       "飲むと運が良くなる"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/potion_luck"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

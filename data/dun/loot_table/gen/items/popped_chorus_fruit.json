@@ -21,7 +21,8 @@
                     "lore": [
                       "普通のキャベツよりも葉が厚いので食感が良い"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/popped_chorus_fruit"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

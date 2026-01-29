@@ -22,7 +22,8 @@
                       "おいしそうなジュース",
                       "飲むと力が強くなる"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/potion_strength"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

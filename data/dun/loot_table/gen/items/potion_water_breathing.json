@@ -22,7 +22,8 @@
                       "珍しい色のジュース",
                       "飲むと水中でも呼吸ができるようになる"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/potion_water_breathing"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

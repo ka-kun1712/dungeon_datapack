@@ -18,7 +18,8 @@
                       "text": "残響の欠片",
                       "color": "white"
                     }
-                  }
+                  },
+                  "loot_table": "dun:gen/items/echo_shard"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

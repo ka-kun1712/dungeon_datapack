@@ -21,7 +21,8 @@
                     "lore": [
                       "普通の羊羹よりちょっと硬いし色が濃い"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/nether_brick"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

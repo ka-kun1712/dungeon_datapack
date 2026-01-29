@@ -22,7 +22,8 @@
                       "稀に大昔の生物が入っていることがある",
                       "その場合とても高く売れるだろう"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/resin_clump"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

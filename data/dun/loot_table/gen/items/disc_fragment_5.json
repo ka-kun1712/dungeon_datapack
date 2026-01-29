@@ -21,7 +21,8 @@
                     "lore": [
                       "触ると痛い"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/disc_fragment_5"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

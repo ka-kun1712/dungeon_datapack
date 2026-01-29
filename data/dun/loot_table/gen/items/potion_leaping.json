@@ -22,7 +22,8 @@
                       "おいしそうなジュース",
                       "飲むとジャンプが高くなる"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/potion_leaping"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

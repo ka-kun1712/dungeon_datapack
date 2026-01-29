@@ -22,7 +22,8 @@
                       "猫の目のような模様の入った綺麗な丸い宝石",
                       "高く売れる"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/ender_eye"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

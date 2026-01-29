@@ -18,7 +18,8 @@
                       "text": "石炭",
                       "color": "white"
                     }
-                  }
+                  },
+                  "loot_table": "dun:gen/items/coal"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

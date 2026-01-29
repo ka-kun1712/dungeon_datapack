@@ -18,7 +18,8 @@
                       "text": "金色の石",
                       "color": "white"
                     }
-                  }
+                  },
+                  "loot_table": "dun:gen/items/raw_gold"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

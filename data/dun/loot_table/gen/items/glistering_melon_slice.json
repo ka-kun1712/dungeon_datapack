@@ -22,7 +22,8 @@
                       "純金の欠片が埋め込まれたスイカ",
                       "食べるとちょっと回復力が上がる"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/glistering_melon_slice"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

@@ -22,7 +22,8 @@
                       "普通の粉よりちょっと綺麗",
                       "ちょっとだけ高く売れる"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/glowstone_dust"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

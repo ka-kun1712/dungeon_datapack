@@ -22,7 +22,8 @@
                       "世にも珍しい光るイカスミ",
                       "ちょっとだけ高く売れる"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/glow_ink_sac"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

@@ -21,7 +21,8 @@
                     "lore": [
                       "実はおいしいだけではなく体に良い"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/ink_sac"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

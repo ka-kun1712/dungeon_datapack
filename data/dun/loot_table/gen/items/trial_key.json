@@ -22,7 +22,8 @@
                       "安っぽい鍵",
                       "一体何が開けられるのだろうか"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/trial_key"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

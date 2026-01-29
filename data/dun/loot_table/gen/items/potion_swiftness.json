@@ -22,7 +22,8 @@
                       "珍しい色のジュース",
                       "飲むと足が速くなる"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/potion_swiftness"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

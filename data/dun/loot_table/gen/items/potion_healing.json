@@ -21,7 +21,8 @@
                     "lore": [
                       "飲むと即座に体力が回復する"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/potion_healing"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

@@ -22,7 +22,8 @@
                       "毒があるので食べてはいけない",
                       "捌くことができれば食べられそうだ"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/pufferfish"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

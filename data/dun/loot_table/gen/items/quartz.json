@@ -21,7 +21,8 @@
                     "lore": [
                       "きのこのはずだが何故か食べる手が動かない"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/quartz"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

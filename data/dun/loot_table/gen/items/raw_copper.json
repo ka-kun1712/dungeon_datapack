@@ -18,7 +18,8 @@
                       "text": "銅原石",
                       "color": "white"
                     }
-                  }
+                  },
+                  "loot_table": "dun:gen/items/raw_copper"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

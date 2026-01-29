@@ -22,7 +22,8 @@
                       "絶妙に嫌な感触をしている",
                       "できれば触りたくない"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/fermented_spider_eye"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

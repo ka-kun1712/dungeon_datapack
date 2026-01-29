@@ -22,7 +22,8 @@
                       "あくまでも\"義理\"",
                       "少し甘酸っぱい"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/netherite_scrap"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

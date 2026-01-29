@@ -21,7 +21,8 @@
                     "lore": [
                       "何かの動物の毛がほんの少し残っている"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/leather"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

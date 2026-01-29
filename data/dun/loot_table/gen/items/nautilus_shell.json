@@ -21,7 +21,8 @@
                     "lore": [
                       "カタツムリから殻を取ったらナメクジになるんだっけ"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/nautilus_shell"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

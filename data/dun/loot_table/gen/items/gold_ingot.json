@@ -21,7 +21,8 @@
                     "lore": [
                       "純度41.7%の金の延べ棒"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/gold_ingot"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

@@ -22,7 +22,8 @@
                       "砕くと綺麗な青い顔料ができる",
                       "あの有名画家も使っていたらしい"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/lapis_lazuli"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

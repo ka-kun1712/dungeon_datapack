@@ -21,7 +21,8 @@
                     "lore": [
                       "世の中にはチキンナゲットの衣の部分だけ剥がして食べる人もいるようだ"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/blaze_powder"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

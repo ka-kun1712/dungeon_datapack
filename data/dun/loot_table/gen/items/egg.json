@@ -21,7 +21,8 @@
                     "lore": [
                       "一体何の…？"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/egg"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

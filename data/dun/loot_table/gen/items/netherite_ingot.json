@@ -22,7 +22,8 @@
                       "愛をとても強く感じるチョコ",
                       "味は甘いがその思いは甘く見てはいけない"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/netherite_ingot"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

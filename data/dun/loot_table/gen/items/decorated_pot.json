@@ -22,7 +22,8 @@
                       "伝説の職人が作ったとの噂がある壺",
                       "持っていると力を感じる 気がする...？"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/decorated_pot"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

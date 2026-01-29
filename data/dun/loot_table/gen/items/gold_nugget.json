@@ -18,7 +18,8 @@
                       "text": "金の欠片",
                       "color": "white"
                     }
-                  }
+                  },
+                  "loot_table": "dun:gen/items/gold_nugget"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

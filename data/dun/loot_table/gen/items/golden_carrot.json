@@ -22,7 +22,8 @@
                       "純金の欠片が埋め込まれたニンジン",
                       "食べるとちょっと回復力が上がる"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/golden_carrot"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

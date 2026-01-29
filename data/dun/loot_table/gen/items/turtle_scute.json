@@ -21,7 +21,8 @@
                     "lore": [
                       "一目見てスライムとはわからない程に干からびている"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/turtle_scute"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

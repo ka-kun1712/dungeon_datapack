@@ -21,7 +21,8 @@
                     "lore": [
                       "世の中にはチキンナゲットの衣を剥がして肉の部分だけ食べる人もいるようだ"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/armadillo_scute"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

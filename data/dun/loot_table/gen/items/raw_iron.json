@@ -18,7 +18,8 @@
                       "text": "鉄の原石",
                       "color": "white"
                     }
-                  }
+                  },
+                  "loot_table": "dun:gen/items/raw_iron"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

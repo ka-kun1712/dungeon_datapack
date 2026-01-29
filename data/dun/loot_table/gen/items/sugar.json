@@ -21,7 +21,8 @@
                     "lore": [
                       "何かわからない粉は絶対に舐めてはいけない"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/sugar"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

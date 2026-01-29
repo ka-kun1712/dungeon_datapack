@@ -21,7 +21,8 @@
                     "lore": [
                       "ぬいぐるみだ！ かわいいね！"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/rabbit_hide"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

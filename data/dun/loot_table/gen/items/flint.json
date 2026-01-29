@@ -22,7 +22,8 @@
                       "他の石に比べてとても尖っている",
                       "触ると痛い"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/flint"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

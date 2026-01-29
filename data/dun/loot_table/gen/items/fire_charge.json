@@ -22,7 +22,8 @@
                       "完全に干からびている",
                       "無惨だ..."
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/fire_charge"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

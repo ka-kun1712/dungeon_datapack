@@ -3,10 +3,11 @@ import path from "node:path";
 
 const ROOT_DIR = "../";
 const LOOT_TABLE_PATH = "gen";
+const NAMESPACE = "dun";
 
 const LOOT_TABLE_DIR = path.join(
   ROOT_DIR,
-  "data/dun/loot_table",
+  `data/${NAMESPACE}/loot_table`,
   LOOT_TABLE_PATH,
 );
 const ITEMS_FILE_PATH = "items.json";
@@ -17,11 +18,11 @@ const DEFAULT_NAME = "?????";
 const CHEST_ROLL = 6;
 
 interface Item {
-  file_name?: string;
+  file_name: string;
   id: string;
   tier: number;
   price: number;
-  weight?: number;
+  weight: number;
   name: string;
   lore?: (string | object)[];
   fn: object[];
@@ -67,11 +68,10 @@ async function main() {
       const loot_table = genLt(v);
       if (!loot_table) continue;
 
-      const formatted_id = v.file_name;
       const file_path = path.join(
         LOOT_TABLE_DIR,
         "items",
-        `${formatted_id}.json`,
+        `${v.file_name}.json`,
       );
 
       await fs.mkdir(path.dirname(file_path), { recursive: true });
@@ -84,12 +84,17 @@ async function main() {
 
       all_loot_table.pools.push({
         rolls: 1,
-        entries: [{ type: "loot_table", value: `dun:${LOOT_TABLE_PATH}/items/${formatted_id}` }],
+        entries: [
+          {
+            type: "loot_table",
+            value: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${v.file_name}`,
+          },
+        ],
       });
 
       chest_loot_table.pools[0].entries.push({
         type: "loot_table",
-        value: `dun:${LOOT_TABLE_PATH}/items/${formatted_id}`,
+        value: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${v.file_name}`,
         weight: v.weight,
       });
     }
@@ -113,7 +118,7 @@ async function main() {
 }
 
 function genLt(v: Item) {
-  const { id, tier, price, weight, name, lore, fn } = v;
+  const { file_name, id, tier, price, weight, name, lore, fn } = v;
   console.log(id);
 
   if (!id || !tier || !price || !name) {
@@ -139,6 +144,7 @@ function genLt(v: Item) {
                       price,
                       name: { text: name, color: "white" },
                     },
+                    loot_table: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${file_name}`,
                   },
                   "minecraft:custom_name": {
                     text: DEFAULT_NAME,

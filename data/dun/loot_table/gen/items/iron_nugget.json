@@ -18,7 +18,8 @@
                       "text": "鉄塊",
                       "color": "white"
                     }
-                  }
+                  },
+                  "loot_table": "dun:gen/items/iron_nugget"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

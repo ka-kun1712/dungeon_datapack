@@ -21,7 +21,8 @@
                     "lore": [
                       "エナドリほど最強の飲み物は無い"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/resin_brick"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

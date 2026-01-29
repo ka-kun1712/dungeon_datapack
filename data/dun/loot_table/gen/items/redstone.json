@@ -22,7 +22,8 @@
                       "紅に染まった粉",
                       "たまに淡く光る"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/redstone"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

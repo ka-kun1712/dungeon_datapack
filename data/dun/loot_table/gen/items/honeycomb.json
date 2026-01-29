@@ -22,7 +22,8 @@
                       "なんとかして頑張ったらハチミツが取れそうな…",
                       "流石に無理か…"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/honeycomb"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

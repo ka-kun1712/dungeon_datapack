@@ -18,7 +18,8 @@
                       "text": "鉄",
                       "color": "white"
                     }
-                  }
+                  },
+                  "loot_table": "dun:gen/items/iron_ingot"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

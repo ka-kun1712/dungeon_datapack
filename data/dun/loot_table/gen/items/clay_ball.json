@@ -22,7 +22,8 @@
                       "絶妙な感触をしている",
                       "焼くと硬くなりそうだ"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/clay_ball"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

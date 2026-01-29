@@ -21,7 +21,8 @@
                     "lore": [
                       "砕けない"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/diamond"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

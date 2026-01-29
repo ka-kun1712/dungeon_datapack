@@ -18,7 +18,8 @@
                       "text": "エメ",
                       "color": "white"
                     }
-                  }
+                  },
+                  "loot_table": "dun:gen/items/emerald"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

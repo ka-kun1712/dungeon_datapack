@@ -21,7 +21,8 @@
                     "lore": [
                       "あまりにも色が毒すぎる"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/nether_wart"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

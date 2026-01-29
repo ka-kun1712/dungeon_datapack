@@ -22,7 +22,8 @@
                       "珍しい色と名前のジュース",
                       "飲むと回復力が上がる"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/potion_regeneration"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",

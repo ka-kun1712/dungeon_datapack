@@ -22,7 +22,8 @@
                       "明らかにヤバい肉",
                       "食べてはいけない"
                     ]
-                  }
+                  },
+                  "loot_table": "dun:gen/items/rotten_flesh"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",
