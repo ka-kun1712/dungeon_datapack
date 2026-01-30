@@ -25,13 +25,13 @@
                   }
                 },
                 "consumable": {
-                  "consume_seconds": 0.1,
-                  "animation": "spear",
+                  "consume_seconds": 2,
+                  "animation": "bow",
                   "sound": "intentionally_empty",
                   "has_consume_particles": false
                 },
                 "use_cooldown": {
-                  "seconds": 0.2
+                  "seconds": 0.1
                 }
               }
             }
