@@ -1,8 +1,7 @@
 {
   "criteria": {
     "": {
-      "trigger": "consume_item",
-      "conditions": {}
+      "trigger": "consume_item"
     }
   },
   "rewards": {
