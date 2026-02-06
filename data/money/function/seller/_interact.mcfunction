@@ -1,6 +1,6 @@
 # 
 
-execute on target run say interacting!
+execute on target run function money:seller/sell
 
 # clear
 data remove entity @s interaction
