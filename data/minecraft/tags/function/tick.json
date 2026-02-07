@@ -1,6 +1,7 @@
 {
   "values": [
     "#money:tick",
-    "#dun:tick"
+    "#dun:tick",
+    "#portal:tick"
   ]
 }
