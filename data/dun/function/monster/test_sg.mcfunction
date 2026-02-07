@@ -1,4 +1,4 @@
-# {group: string}
+# 
 
 function dun:monster/summon_group {group:"plain"}
 function dun:monster/summon_group {group:"mineshaft"}
