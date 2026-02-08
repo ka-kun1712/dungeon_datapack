@@ -34,6 +34,14 @@
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "dun": {
+                  "key": true
+                }
+              }
             }
           ]
         }

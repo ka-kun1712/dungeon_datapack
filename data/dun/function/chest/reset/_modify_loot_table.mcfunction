@@ -8,3 +8,4 @@ $execute if block $(pos) #util:can_loot_table run scoreboard players add #count 
 
 $execute if data storage util: for_data_args_0{tier:1} run data modify block $(pos) LootTable set value "dun:normal_chest"
 $execute if data storage util: for_data_args_0{tier:2} run data modify block $(pos) LootTable set value "dun:rare_chest"
+$execute if data storage util: for_data_args_0{tier:2} run data modify block $(pos) lock set value {predicates:{custom_data:{dun:{key:1b}}}}

@@ -94,12 +94,14 @@ async function main() {
         quality: 1,
       });
 
-      rare_pickup_loot_table.pools[0].entries.push({
-        type: "loot_table",
-        value: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${v.file_name}`,
-        weight: v.rare_weight,
-        quality: 1,
-      });
+      if (1 <= v.rare_weight) {
+        rare_pickup_loot_table.pools[0].entries.push({
+          type: "loot_table",
+          value: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${v.file_name}`,
+          weight: v.rare_weight,
+          quality: 1,
+        });
+      }
     }
 
     await fs.mkdir(
