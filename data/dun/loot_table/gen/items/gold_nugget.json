@@ -16,7 +16,10 @@
                     "name": {
                       "text": "金の欠片",
                       "color": "white"
-                    }
+                    },
+                    "lore": [
+                      "川でも拾えそう"
+                    ]
                   },
                   "money": {
                     "price": 200

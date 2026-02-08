@@ -14,9 +14,13 @@
                   "looting": {
                     "tier": 4,
                     "name": {
-                      "text": "エメ",
+                      "text": "ドロップス",
                       "color": "white"
-                    }
+                    },
+                    "lore": [
+                      "ドロップス",
+                      "メロン味"
+                    ]
                   },
                   "money": {
                     "price": 1200

@@ -11,7 +11,11 @@ const LOOT_TABLE_DIR = path.join(
   LOOT_TABLE_PATH,
 );
 const ITEMS_FILE_PATH = "items.json";
-const PICKUP_FILENAME = "pickup.json";
+
+const PICKUP_DIR = "pickup";
+const NORMAL_FILENAME = "normal.json";
+const RARE_FILENAME = "rare.json";
+
 const DEFAULT_NAME = "?????";
 
 interface Item {
@@ -19,7 +23,8 @@ interface Item {
   id: string;
   tier: number;
   price: number;
-  weight: number;
+  normal_weight: number;
+  rare_weight: number;
   name: string;
   lore?: (string | object)[];
   fn: object[];
@@ -57,7 +62,10 @@ async function main() {
       await fs.readFile(ITEMS_FILE_PATH, "utf-8"),
     );
 
-    const pickup_loot_table: LootTable<LootTableEntry> = {
+    const normal_pickup_loot_table: LootTable<LootTableEntry> = {
+      pools: [{ rolls: 1, entries: [] }],
+    };
+    const rare_pickup_loot_table: LootTable<LootTableEntry> = {
       pools: [{ rolls: 1, entries: [] }],
     };
 
@@ -79,17 +87,44 @@ async function main() {
         "utf-8",
       );
 
-      pickup_loot_table.pools[0].entries.push({
+      normal_pickup_loot_table.pools[0].entries.push({
         type: "loot_table",
         value: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${v.file_name}`,
-        weight: v.weight,
+        weight: v.normal_weight,
+        quality: 1,
+      });
+
+      rare_pickup_loot_table.pools[0].entries.push({
+        type: "loot_table",
+        value: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${v.file_name}`,
+        weight: v.rare_weight,
         quality: 1,
       });
     }
 
+    await fs.mkdir(
+      path.dirname(path.join(LOOT_TABLE_DIR, PICKUP_DIR, NORMAL_FILENAME)),
+      {
+        recursive: true,
+      },
+    );
+
     await fs.writeFile(
-      path.join(LOOT_TABLE_DIR, PICKUP_FILENAME),
-      JSON.stringify(pickup_loot_table, null, 2),
+      path.join(LOOT_TABLE_DIR, PICKUP_DIR, NORMAL_FILENAME),
+      JSON.stringify(normal_pickup_loot_table, null, 2),
+      "utf-8",
+    );
+
+    await fs.mkdir(
+      path.dirname(path.join(LOOT_TABLE_DIR, PICKUP_DIR, RARE_FILENAME)),
+      {
+        recursive: true,
+      },
+    );
+
+    await fs.writeFile(
+      path.join(LOOT_TABLE_DIR, PICKUP_DIR, RARE_FILENAME),
+      JSON.stringify(rare_pickup_loot_table, null, 2),
       "utf-8",
     );
 
@@ -100,7 +135,7 @@ async function main() {
 }
 
 function genLt(v: Item) {
-  const { file_name, id, tier, price, weight, name, lore, fn } = v;
+  const { file_name, id, tier, price, name, lore, fn } = v;
   console.log(id);
 
   if (!id || !tier || !price || !name) {
