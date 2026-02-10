@@ -16,10 +16,7 @@
                     "name": {
                       "text": "金のブーツ",
                       "color": "white"
-                    },
-                    "lore": [
-                      "2マスの段差を乗り越えられる"
-                    ]
+                    }
                   },
                   "money": {
                     "price": 200
@@ -33,6 +30,18 @@
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
               }
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "id": "minecraft:armor.boots",
+                  "slot": "feet"
+                }
+              ]
             }
           ]
         }

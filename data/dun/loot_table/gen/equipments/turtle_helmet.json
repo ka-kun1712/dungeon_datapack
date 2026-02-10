@@ -16,10 +16,7 @@
                     "name": {
                       "text": "亀の甲羅",
                       "color": "white"
-                    },
-                    "lore": [
-                      "水中呼吸"
-                    ]
+                    }
                   },
                   "money": {
                     "price": 50
@@ -33,6 +30,18 @@
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
               }
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "armor",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "id": "minecraft:armor.helmet",
+                  "slot": "head"
+                }
+              ]
             }
           ]
         }

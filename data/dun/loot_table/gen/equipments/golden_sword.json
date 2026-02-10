@@ -30,6 +30,10 @@
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
               }
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": []
             }
           ]
         }

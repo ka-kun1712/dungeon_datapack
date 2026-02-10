@@ -30,6 +30,18 @@
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
               }
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "armor",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "id": "minecraft:armor.leggings",
+                  "slot": "legs"
+                }
+              ]
             }
           ]
         }

@@ -30,6 +30,25 @@
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
               }
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "id": "minecraft:armor.helmet",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "id": "minecraft:armor.helmet",
+                  "slot": "head"
+                }
+              ]
             }
           ]
         }

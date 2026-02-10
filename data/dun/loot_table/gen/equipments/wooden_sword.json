@@ -16,10 +16,7 @@
                     "name": {
                       "text": "木刀",
                       "color": "white"
-                    },
-                    "lore": [
-                      "攻撃間隔が短い"
-                    ]
+                    }
                   },
                   "money": {
                     "price": 50
@@ -33,6 +30,25 @@
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
               }
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "attack_damage",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "id": "minecraft:base_attack_damage",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "attack_speed",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "id": "minecraft:base_attack_speed",
+                  "slot": "mainhand"
+                }
+              ]
             }
           ]
         }

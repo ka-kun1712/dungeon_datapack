@@ -14,7 +14,7 @@
                   "looting": {
                     "tier": 2,
                     "name": {
-                      "text": "鉄の剣",
+                      "text": "クレイモア",
                       "color": "white"
                     }
                   },
@@ -30,6 +30,10 @@
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
               }
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": []
             }
           ]
         }

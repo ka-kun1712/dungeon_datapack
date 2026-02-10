@@ -16,10 +16,7 @@
                     "name": {
                       "text": "チェーンのブーツ",
                       "color": "white"
-                    },
-                    "lore": [
-                      "1マスの段差を乗り越えられる"
-                    ]
+                    }
                   },
                   "money": {
                     "price": 50
@@ -33,6 +30,18 @@
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
               }
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "armor",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "id": "minecraft:armor.boots",
+                  "slot": "feet"
+                }
+              ]
             }
           ]
         }
