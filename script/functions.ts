@@ -55,11 +55,11 @@ export async function gen_item_loot_tables() {
       normal_pickup_loot_table.pools[0].entries.push({
         type: "loot_table",
         value: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${v.file_name}`,
-        weight: v.normal_weight,
+        weight: v.weight,
         quality: 1,
       });
 
-      if (1 <= v.rare_weight) {
+      if (v.rare_weight && 1 <= v.rare_weight) {
         rare_pickup_loot_table.pools[0].entries.push({
           type: "loot_table",
           value: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${v.file_name}`,
@@ -156,7 +156,7 @@ function gen_item_loot_table(v: Item) {
   if (fn.length != 0) {
     data.pools[0].entries[0].functions =
       data.pools[0].entries[0].functions.concat(fn);
-    console.log(fn);
+    console.log(fn[0]);
   }
 
   return data;
@@ -193,7 +193,7 @@ export async function gen_equipment_loot_tables() {
       normal_pickup_loot_table.pools[0].entries.push({
         type: "loot_table",
         value: `${NAMESPACE}:${LOOT_TABLE_PATH}/equipments/${v.file_name}`,
-        weight: v.normal_weight,
+        weight: v.weight,
         quality: 1,
       });
     }

@@ -6,186 +6,223 @@
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/chainmail_boots",
+          "weight": 80,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/chainmail_helmet",
+          "weight": 80,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/chainmail_chestplate",
+          "weight": 80,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/chainmail_leggings",
+          "weight": 80,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/leather_boots",
+          "weight": 100,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/leather_helmet",
+          "weight": 100,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/leather_chestplate",
+          "weight": 100,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/leather_leggings",
+          "weight": 100,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/iron_boots",
+          "weight": 40,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/iron_helmet",
+          "weight": 40,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/iron_chestplate",
+          "weight": 40,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/iron_leggings",
+          "weight": 40,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/golden_boots",
+          "weight": 20,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/golden_helmet",
+          "weight": 20,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/golden_chestplate",
+          "weight": 20,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/golden_leggings",
+          "weight": 20,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/diamond_boots",
+          "weight": 10,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/diamond_helmet",
+          "weight": 10,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/diamond_chestplate",
+          "weight": 10,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/diamond_leggings",
+          "weight": 10,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/netherite_boots",
+          "weight": 2,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/netherite_helmet",
+          "weight": 2,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/netherite_chestplate",
+          "weight": 2,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/netherite_leggings",
+          "weight": 2,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/turtle_helmet",
+          "weight": 30,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/wooden_sword",
+          "weight": 30,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/wooden_axe",
+          "weight": 30,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/stone_sword",
+          "weight": 30,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/stone_axe",
+          "weight": 30,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/iron_sword",
+          "weight": 25,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/iron_axe",
+          "weight": 25,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/golden_sword",
+          "weight": 15,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/golden_axe",
+          "weight": 15,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/diamond_sword",
+          "weight": 8,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/diamond_axe",
+          "weight": 8,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/netherite_sword",
+          "weight": 2,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/netherite_axe",
+          "weight": 2,
           "quality": 1
         }
       ]

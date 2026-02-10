@@ -3,8 +3,8 @@ export interface Item {
   id: string;
   tier: number;
   price: number;
-  normal_weight: number;
-  rare_weight: number;
+  weight: number;
+  rare_weight?: number;
   name: string;
   lore?: (string | object)[];
   fn: object[];
