@@ -6,49 +6,49 @@
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/chainmail_boots",
-          "weight": 80,
+          "weight": 60,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/chainmail_helmet",
-          "weight": 80,
+          "weight": 60,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/chainmail_chestplate",
-          "weight": 80,
+          "weight": 60,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/chainmail_leggings",
-          "weight": 80,
+          "weight": 60,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/leather_boots",
-          "weight": 100,
+          "weight": 80,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/leather_helmet",
-          "weight": 100,
+          "weight": 80,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/leather_chestplate",
-          "weight": 100,
+          "weight": 80,
           "quality": 1
         },
         {
           "type": "loot_table",
           "value": "dun:gen/equipments/leather_leggings",
-          "weight": 100,
+          "weight": 80,
           "quality": 1
         },
         {
