@@ -1,6 +1,6 @@
 scoreboard players remove @s duration 1
-execute as @e[type=!player,type=!item,type=!armor_stand] at @s if entity @e[type=armor_stand, tag= ice,distance=..2] run summon armor_stand ~ ~-1.5 ~ {Tags:["summon_ice"],NoGravity: true,Invisible: true,attributes:[{id: "scale",base:1.5}]}
-execute as @e[type= armor_stand,tag=summon_ice] at @s if entity @e[type= armor_stand,tag=ice,distance=..3] at @s run scoreboard players set @s ice 81
+execute as @e[type=!player,type=!item,type=!armor_stand] at @s if entity @e[type=armor_stand,tag=ice,distance=..2] run summon armor_stand ~ ~-1.5 ~ {Tags:["summon_ice"],NoGravity: true,Invisible:true,attributes:[{id:"scale",base:1.5}]}
+execute as @e[type=armor_stand,tag=summon_ice] at @s if entity @e[type=armor_stand,tag=ice,distance=..3] at @s run scoreboard players set @s ice 81
 # execute as @e[type=!player,type=!item,type=!armor_stand,team=boss] at @s if entity @e[type=armor_stand, tag= ice,distance=..4] run summon armor_stand ~ ~-1.5 ~ {Tags:["summon_ice"],NoGravity: true,Invisible: false,attributes:[{id: "scale",base:1.5}]}
 # execute as @e[type=!player,type=!item,type=!armor_stand] at @s if entity @n[type=armor_stand, tag= ice,distance=..2] run setblock ~ ~ ~ ice keep
 # execute as @e[type=!player,type=!item,type=!armor_stand] at @s if entity @n[type=armor_stand, tag= ice,distance=..2] run setblock ~ ~1 ~ ice keep

@@ -9,4 +9,3 @@ execute as @s[scores={duration=25},tag=heal] at @s run function dun:item/healing
 execute as @s[scores={duration=0},tag=heal] at @s run function dun:item/healing_staff/heal_particle
 kill @s[scores={duration=..0}]
 tp @s ~ ~ ~ ~50 ~
-
