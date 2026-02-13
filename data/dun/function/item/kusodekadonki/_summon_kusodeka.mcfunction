@@ -7,4 +7,4 @@ execute as @e[type=!player,type=!item,type=!armor_stand] at @s if entity @e[type
 particle explosion_emitter ~ ~ ~ 1 1 1 1 3
 particle block{block_state:deepslate} ~ ~ ~ 2 1 2 1 300
 tp @n[type=armor_stand,tag=kusodeka] ^ ^2 ^3 ~ ~
-scoreboard players set @n[type=armor_stand,tag=kusodeka] duration 40
+kill @e[type= armor_stand,tag= kusodeka]
