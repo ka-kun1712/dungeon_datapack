@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "stone_sword",
+          "name": "wooden_axe",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -14,14 +14,14 @@
                   {
                     "operation": "add_value",
                     "type": "attack_damage",
-                    "amount": 9,
+                    "amount": 4,
                     "id": "minecraft:base_attack_damage",
                     "slot": "mainhand"
                   },
                   {
                     "operation": "add_value",
                     "type": "attack_speed",
-                    "amount": -2,
+                    "amount": 10,
                     "id": "minecraft:base_attack_speed",
                     "slot": "mainhand"
                   }
@@ -31,7 +31,7 @@
                     "tier": 1,
                     "price": 80,
                     "name": {
-                      "text": "石刀",
+                      "text": "木斧",
                       "color": "white"
                     }
                   }
