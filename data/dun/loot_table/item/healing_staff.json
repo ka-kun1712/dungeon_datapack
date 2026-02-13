@@ -53,7 +53,9 @@
                 },
                 "use_cooldown": {
                   "seconds": 1
-                }
+                },
+                "!jukebox_playable": {},
+                "rarity": "common"
               }
             }
           ]
