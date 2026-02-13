@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "attribute_modifiers": [
+                  {
+                    "operation": "add_value",
+                    "type": "attack_damage",
+                    "amount": 49,
+                    "id": "minecraft:base_attack_damage",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "looting": {
+                    "tier": 4,
+                    "price": 80,
+                    "name": {
+                      "text": "凍結の剣",
+                      "color": "aqua"
+                    }
+                  },
+                  "usable": {
+                    "loot_table": "dun:item/ice_sword",
+                    "command": "function dun:item/ice_sword/_summon_ice"
+                  }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
+                },
+                "consumable": {
+                  "consume_seconds": 0.3,
+                  "animation": "spear",
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "use_cooldown": {
+                  "seconds": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

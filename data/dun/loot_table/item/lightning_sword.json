@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "golden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "attribute_modifiers": [
+                  {
+                    "operation": "add_value",
+                    "type": "attack_damage",
+                    "amount": 29,
+                    "id": "minecraft:base_attack_damage",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "operation": "add_value",
+                    "type": "attack_speed",
+                    "amount": -2,
+                    "id": "minecraft:base_attack_speed",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "looting": {
+                    "tier": 3,
+                    "price": 80,
+                    "name": {
+                      "text": "召雷の剣",
+                      "color": "yellow"
+                    }
+                  },
+                  "usable": {
+                    "loot_table": "dun:item/lightning_sword",
+                    "command": "function dun:item/lightning_sword/lightning_sword"
+                  }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
+                },
+                "consumable": {
+                  "consume_seconds": 0.3,
+                  "animation": "spear",
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "use_cooldown": {
+                  "seconds": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

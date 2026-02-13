@@ -20,9 +20,13 @@
                     }
                   },
                   "usable": {
-                    "loot_table": "dun:test_stick",
+                    "loot_table": "dun:item/test_stick",
                     "command": "function dun:item/test_stick"
                   }
+                },
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
                 },
                 "consumable": {
                   "consume_seconds": 0.05,
