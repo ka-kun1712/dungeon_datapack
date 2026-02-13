@@ -51,7 +51,7 @@ export async function gen_item_loot_tables() {
         JSON.stringify(loot_table, null, 2),
         "utf-8",
       );
-let a = a ?? "a";
+
       normal_pickup_loot_table.pools[0].entries.push({
         type: "loot_table",
         value: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${v.file_name}`,
