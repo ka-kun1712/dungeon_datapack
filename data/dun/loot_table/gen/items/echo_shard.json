@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 4,
-                    "name": {
-                      "text": "青く光る棒",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "黒い棒",
-                      "青く光る粉のようなものが付いている"
-                    ]
-                  },
-                  "money": {
-                    "price": 2100
-                  },
-                  "loot_table": "dun:gen/items/echo_shard"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 4,
+                  "name": {
+                    "text": "青く光る棒",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "黒い棒",
+                    "青く光る粉のようなものが付いている"
+                  ]
+                },
+                "money": {
+                  "price": 2100
+                },
+                "loot_table": "dun:gen/items/echo_shard"
               }
             }
           ]

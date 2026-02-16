@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 3,
-                    "name": {
-                      "text": "ピカピカスイカ",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "純金の欠片が埋め込まれたスイカ",
-                      "食べるとちょっと回復力が上がる"
-                    ]
-                  },
-                  "money": {
-                    "price": 600
-                  },
-                  "loot_table": "dun:gen/items/glistering_melon_slice"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 3,
+                  "name": {
+                    "text": "ピカピカスイカ",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "純金の欠片が埋め込まれたスイカ",
+                    "食べるとちょっと回復力が上がる"
+                  ]
+                },
+                "money": {
+                  "price": 600
+                },
+                "loot_table": "dun:gen/items/glistering_melon_slice"
               }
             }
           ]

@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 2,
-                    "name": {
-                      "text": "赤い粉",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "紅に染まった粉",
-                      "たまに淡く光る"
-                    ]
-                  },
-                  "money": {
-                    "price": 300
-                  },
-                  "loot_table": "dun:gen/items/redstone"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 2,
+                  "name": {
+                    "text": "赤い粉",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "紅に染まった粉",
+                    "たまに淡く光る"
+                  ]
+                },
+                "money": {
+                  "price": 300
+                },
+                "loot_table": "dun:gen/items/redstone"
               }
             }
           ]

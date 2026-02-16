@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 3,
-                    "name": {
-                      "text": "ぶくぶくジュース",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "珍しい色のジュース",
-                      "飲むと水中でも呼吸ができるようになる"
-                    ]
-                  },
-                  "money": {
-                    "price": 800
-                  },
-                  "loot_table": "dun:gen/items/potion_water_breathing"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 3,
+                  "name": {
+                    "text": "ぶくぶくジュース",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "珍しい色のジュース",
+                    "飲むと水中でも呼吸ができるようになる"
+                  ]
+                },
+                "money": {
+                  "price": 800
+                },
+                "loot_table": "dun:gen/items/potion_water_breathing"
               }
             },
             {

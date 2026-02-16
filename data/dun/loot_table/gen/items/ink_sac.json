@@ -10,28 +10,31 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 1,
-                    "name": {
-                      "text": "墨袋",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "実はおいしいだけではなく体に良い"
-                    ]
-                  },
-                  "money": {
-                    "price": 20
-                  },
-                  "loot_table": "dun:gen/items/ink_sac"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 1,
+                  "name": {
+                    "text": "墨袋",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "実はおいしいだけではなく体に良い"
+                  ]
+                },
+                "money": {
+                  "price": 20
+                },
+                "loot_table": "dun:gen/items/ink_sac"
               }
             }
           ]

@@ -10,28 +10,31 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 4,
-                    "name": {
-                      "text": "ダイアモンド",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "砕けない"
-                    ]
-                  },
-                  "money": {
-                    "price": 1800
-                  },
-                  "loot_table": "dun:gen/items/diamond"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 4,
+                  "name": {
+                    "text": "ダイアモンド",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "砕けない"
+                  ]
+                },
+                "money": {
+                  "price": 1800
+                },
+                "loot_table": "dun:gen/items/diamond"
               }
             }
           ]

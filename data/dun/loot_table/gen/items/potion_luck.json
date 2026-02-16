@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 3,
-                    "name": {
-                      "text": "ラッキージュース",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "奇妙な色のジュース",
-                      "飲むと運が良くなる"
-                    ]
-                  },
-                  "money": {
-                    "price": 1000
-                  },
-                  "loot_table": "dun:gen/items/potion_luck"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 3,
+                  "name": {
+                    "text": "ラッキージュース",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "奇妙な色のジュース",
+                    "飲むと運が良くなる"
+                  ]
+                },
+                "money": {
+                  "price": 1000
+                },
+                "loot_table": "dun:gen/items/potion_luck"
               }
             },
             {

@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 1,
-                    "name": {
-                      "text": "うさぎのぬいぐるみ",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "ぬいぐるみだ！",
-                      "かわいいね！"
-                    ]
-                  },
-                  "money": {
-                    "price": 10
-                  },
-                  "loot_table": "dun:gen/items/rabbit_hide"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 1,
+                  "name": {
+                    "text": "うさぎのぬいぐるみ",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "ぬいぐるみだ！",
+                    "かわいいね！"
+                  ]
+                },
+                "money": {
+                  "price": 10
+                },
+                "loot_table": "dun:gen/items/rabbit_hide"
               }
             }
           ]

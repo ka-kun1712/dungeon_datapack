@@ -124,22 +124,25 @@ function gen_item_loot_table(v: Item) {
               {
                 function: "minecraft:set_components",
                 components: {
-                  "minecraft:custom_data": {
-                    looting: {
-                      tier: tier,
-                      name: fmt_name,
-                    },
-                    money: {
-                      price,
-                    },
-                    loot_table: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${file_name}`,
-                  },
                   "minecraft:custom_name": {
                     text: DEFAULT_NAME,
                     italic: false,
                   },
                   "minecraft:item_name": "",
                   "minecraft:rarity": "common",
+                },
+              },
+              {
+                function: "minecraft:set_custom_data",
+                tag: {
+                  looting: {
+                    tier: tier,
+                    name: fmt_name,
+                  },
+                  money: {
+                    price,
+                  },
+                  loot_table: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${file_name}`,
                 },
               },
             ],
@@ -150,9 +153,7 @@ function gen_item_loot_table(v: Item) {
   };
 
   if (lore && lore.length != 0 && lore[0] != "") {
-    data.pools[0].entries[0].functions[0].components[
-      "minecraft:custom_data"
-    ].looting.lore = lore;
+    data.pools[0].entries[0].functions[1].tag.looting.lore = lore;
   }
 
   if (fn.length != 0) {

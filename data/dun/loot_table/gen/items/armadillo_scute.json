@@ -10,28 +10,31 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 2,
-                    "name": {
-                      "text": "チキンナゲット(肉)",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "世の中にはチキンナゲットの衣を剥がして肉の部分だけ食べる人もいるようだ"
-                    ]
-                  },
-                  "money": {
-                    "price": 100
-                  },
-                  "loot_table": "dun:gen/items/armadillo_scute"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 2,
+                  "name": {
+                    "text": "チキンナゲット(肉)",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "世の中にはチキンナゲットの衣を剥がして肉の部分だけ食べる人もいるようだ"
+                  ]
+                },
+                "money": {
+                  "price": 100
+                },
+                "loot_table": "dun:gen/items/armadillo_scute"
               }
             }
           ]

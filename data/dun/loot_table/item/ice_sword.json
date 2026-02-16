@@ -19,20 +19,6 @@
                     "slot": "mainhand"
                   }
                 ],
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 4,
-                    "price": 80,
-                    "name": {
-                      "text": "凍結の剣",
-                      "color": "aqua"
-                    }
-                  },
-                  "usable": {
-                    "loot_table": "dun:item/ice_sword",
-                    "command": "function dun:item/ice_sword/_summon_ice"
-                  }
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
@@ -45,6 +31,15 @@
                 },
                 "use_cooldown": {
                   "seconds": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "usable": {
+                  "loot_table": "dun:item/ice_sword",
+                  "command": "function dun:item/ice_sword/_summon_ice"
                 }
               }
             }

@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 3,
-                    "name": {
-                      "text": "青い顔料の元",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "砕くと綺麗な青い顔料ができる",
-                      "あの有名画家も使っていたらしい"
-                    ]
-                  },
-                  "money": {
-                    "price": 800
-                  },
-                  "loot_table": "dun:gen/items/lapis_lazuli"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 3,
+                  "name": {
+                    "text": "青い顔料の元",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "砕くと綺麗な青い顔料ができる",
+                    "あの有名画家も使っていたらしい"
+                  ]
+                },
+                "money": {
+                  "price": 800
+                },
+                "loot_table": "dun:gen/items/lapis_lazuli"
               }
             }
           ]

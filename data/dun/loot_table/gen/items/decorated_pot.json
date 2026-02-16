@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 9,
-                    "name": {
-                      "text": "幸運の壺",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "伝説の職人が作ったとの噂がある壺",
-                      "持っていると力を感じる 気がする...？"
-                    ]
-                  },
-                  "money": {
-                    "price": 10000
-                  },
-                  "loot_table": "dun:gen/items/decorated_pot"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 9,
+                  "name": {
+                    "text": "幸運の壺",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "伝説の職人が作ったとの噂がある壺",
+                    "持っていると力を感じる 気がする...？"
+                  ]
+                },
+                "money": {
+                  "price": 10000
+                },
+                "loot_table": "dun:gen/items/decorated_pot"
               }
             }
           ]

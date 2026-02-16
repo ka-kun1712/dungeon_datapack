@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 1,
-                    "name": {
-                      "text": "蜂の巣の欠片",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "なんとかして頑張ったらハチミツが取れそうな…",
-                      "流石に無理か…"
-                    ]
-                  },
-                  "money": {
-                    "price": 50
-                  },
-                  "loot_table": "dun:gen/items/honeycomb"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 1,
+                  "name": {
+                    "text": "蜂の巣の欠片",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "なんとかして頑張ったらハチミツが取れそうな…",
+                    "流石に無理か…"
+                  ]
+                },
+                "money": {
+                  "price": 50
+                },
+                "loot_table": "dun:gen/items/honeycomb"
               }
             }
           ]

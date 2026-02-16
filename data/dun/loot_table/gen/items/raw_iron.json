@@ -10,25 +10,28 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 1,
-                    "name": {
-                      "text": "鉄の原石",
-                      "color": "white"
-                    }
-                  },
-                  "money": {
-                    "price": 60
-                  },
-                  "loot_table": "dun:gen/items/raw_iron"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 1,
+                  "name": {
+                    "text": "鉄の原石",
+                    "color": "white"
+                  }
+                },
+                "money": {
+                  "price": 60
+                },
+                "loot_table": "dun:gen/items/raw_iron"
               }
             }
           ]

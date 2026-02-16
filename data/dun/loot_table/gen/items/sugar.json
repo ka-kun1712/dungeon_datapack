@@ -10,28 +10,31 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 1,
-                    "name": {
-                      "text": "粉",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "何かわからない粉は絶対に舐めてはいけない"
-                    ]
-                  },
-                  "money": {
-                    "price": 20
-                  },
-                  "loot_table": "dun:gen/items/sugar"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 1,
+                  "name": {
+                    "text": "粉",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "何かわからない粉は絶対に舐めてはいけない"
+                  ]
+                },
+                "money": {
+                  "price": 20
+                },
+                "loot_table": "dun:gen/items/sugar"
               }
             }
           ]

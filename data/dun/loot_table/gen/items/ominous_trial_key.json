@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 4,
-                    "name": {
-                      "text": "装飾の施された鍵",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "職人の魂を感じる鍵",
-                      "何に使うかは未だにわからない"
-                    ]
-                  },
-                  "money": {
-                    "price": 1400
-                  },
-                  "loot_table": "dun:gen/items/ominous_trial_key"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 4,
+                  "name": {
+                    "text": "装飾の施された鍵",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "職人の魂を感じる鍵",
+                    "何に使うかは未だにわからない"
+                  ]
+                },
+                "money": {
+                  "price": 1400
+                },
+                "loot_table": "dun:gen/items/ominous_trial_key"
               }
             }
           ]

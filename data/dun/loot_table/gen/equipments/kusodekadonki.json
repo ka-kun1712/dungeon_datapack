@@ -10,25 +10,28 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 5,
-                    "name": {
-                      "text": "クソデカ鈍器",
-                      "color": "red"
-                    }
-                  },
-                  "money": {
-                    "price": 1000
-                  },
-                  "loot_table": "dun:gen/items/kusodekadonki"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 5,
+                  "name": {
+                    "text": "クソデカ鈍器",
+                    "color": "red"
+                  }
+                },
+                "money": {
+                  "price": 1000
+                },
+                "loot_table": "dun:gen/items/kusodekadonki"
               }
             },
             {

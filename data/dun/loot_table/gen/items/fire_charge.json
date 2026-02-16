@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 3,
-                    "name": {
-                      "text": "干上がった海洋の心",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "完全に干からびている",
-                      "無惨だ..."
-                    ]
-                  },
-                  "money": {
-                    "price": 700
-                  },
-                  "loot_table": "dun:gen/items/fire_charge"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 3,
+                  "name": {
+                    "text": "干上がった海洋の心",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "完全に干からびている",
+                    "無惨だ..."
+                  ]
+                },
+                "money": {
+                  "price": 700
+                },
+                "loot_table": "dun:gen/items/fire_charge"
               }
             }
           ]

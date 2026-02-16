@@ -10,25 +10,28 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 2,
-                    "name": {
-                      "text": "残響の弓",
-                      "color": "aqua"
-                    }
-                  },
-                  "money": {
-                    "price": 100
-                  },
-                  "loot_table": "dun:gen/items/music_disc_5"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 2,
+                  "name": {
+                    "text": "残響の弓",
+                    "color": "aqua"
+                  }
+                },
+                "money": {
+                  "price": 100
+                },
+                "loot_table": "dun:gen/items/music_disc_5"
               }
             },
             {

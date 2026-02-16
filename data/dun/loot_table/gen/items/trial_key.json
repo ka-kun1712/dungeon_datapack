@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 3,
-                    "name": {
-                      "text": "普通の鍵",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "安っぽい鍵",
-                      "一体何が開けられるのだろうか"
-                    ]
-                  },
-                  "money": {
-                    "price": 700
-                  },
-                  "loot_table": "dun:gen/items/trial_key"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 3,
+                  "name": {
+                    "text": "普通の鍵",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "安っぽい鍵",
+                    "一体何が開けられるのだろうか"
+                  ]
+                },
+                "money": {
+                  "price": 700
+                },
+                "loot_table": "dun:gen/items/trial_key"
               }
             },
             {
