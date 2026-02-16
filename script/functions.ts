@@ -109,6 +109,8 @@ function gen_item_loot_table(v: Item) {
     console.log("Missing required fields");
     return;
   }
+  const fmt_name =
+    typeof name === "string" ? { text: name, color: "white" } : name;
 
   const data: LootTable<ItemEntry> = {
     pools: [
@@ -125,7 +127,7 @@ function gen_item_loot_table(v: Item) {
                   "minecraft:custom_data": {
                     looting: {
                       tier: tier,
-                      name: { text: name, color: "white" },
+                      name: fmt_name,
                     },
                     money: {
                       price,

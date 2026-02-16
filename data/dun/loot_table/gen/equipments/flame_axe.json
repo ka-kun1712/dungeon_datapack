@@ -5,23 +5,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wooden_sword",
+          "name": "minecraft:netherite_axe",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
                   "looting": {
-                    "tier": 1,
+                    "tier": 5,
                     "name": {
-                      "text": "木刀",
-                      "color": "white"
+                      "text": "炎の斧",
+                      "color": "red"
                     }
                   },
                   "money": {
-                    "price": 50
+                    "price": 1000
                   },
-                  "loot_table": "dun:gen/items/wooden_sword"
+                  "loot_table": "dun:gen/items/flame_axe"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",
@@ -32,18 +32,41 @@
               }
             },
             {
+              "function": "minecraft:set_components",
+              "components": {
+                "consumable": {
+                  "consume_seconds": 1,
+                  "animation": "spear",
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "use_cooldown": {
+                  "seconds": 1
+                }
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": {
+                "usable": {
+                  "loot_table": "dun:gen/equipments/flame_axe",
+                  "command": "function dun:item/flame_axe/_summon_flame"
+                }
+              }
+            },
+            {
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
                   "attribute": "attack_damage",
-                  "amount": 0,
+                  "amount": 59,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_damage",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "attack_speed",
-                  "amount": 0,
+                  "amount": -3,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_speed",
                   "slot": "mainhand"

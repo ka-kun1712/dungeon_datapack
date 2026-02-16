@@ -5,23 +5,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wooden_sword",
+          "name": "minecraft:music_disc_11",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
                   "looting": {
-                    "tier": 1,
+                    "tier": 4,
                     "name": {
-                      "text": "木刀",
-                      "color": "white"
+                      "text": "再生の杖",
+                      "color": "#FF5CB6"
                     }
                   },
                   "money": {
-                    "price": 50
+                    "price": 400
                   },
-                  "loot_table": "dun:gen/items/wooden_sword"
+                  "loot_table": "dun:gen/items/healing_staff"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",
@@ -32,18 +32,44 @@
               }
             },
             {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_model": "trident",
+                "consumable": {
+                  "consume_seconds": 1,
+                  "animation": "bow",
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "use_cooldown": {
+                  "seconds": 1
+                },
+                "!jukebox_playable": {},
+                "rarity": "common"
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": {
+                "usable": {
+                  "loot_table": "dun:gen/equipments/healing_staff",
+                  "command": "function dun:item/healing_staff/_summon_heal"
+                }
+              }
+            },
+            {
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
                   "attribute": "attack_damage",
-                  "amount": 0,
+                  "amount": 19,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_damage",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "attack_speed",
-                  "amount": 0,
+                  "amount": -3,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_speed",
                   "slot": "mainhand"

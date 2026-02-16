@@ -5,7 +5,7 @@ export interface Item {
   price: number;
   weight: number;
   rare_weight?: number;
-  name: string;
+  name: string | object;
   lore?: (string | object)[];
   fn: object[];
 }

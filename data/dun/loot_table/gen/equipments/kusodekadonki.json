@@ -5,23 +5,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wooden_sword",
+          "name": "minecraft:mace",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
                   "looting": {
-                    "tier": 1,
+                    "tier": 5,
                     "name": {
-                      "text": "木刀",
-                      "color": "white"
+                      "text": "クソデカ鈍器",
+                      "color": "red"
                     }
                   },
                   "money": {
-                    "price": 50
+                    "price": 1000
                   },
-                  "loot_table": "dun:gen/items/wooden_sword"
+                  "loot_table": "dun:gen/items/kusodekadonki"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",
@@ -32,18 +32,41 @@
               }
             },
             {
+              "function": "minecraft:set_components",
+              "components": {
+                "consumable": {
+                  "consume_seconds": 1,
+                  "animation": "spear",
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "use_cooldown": {
+                  "seconds": 1
+                }
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": {
+                "usable": {
+                  "loot_table": "dun:gen/equipments/kusodekadonki",
+                  "command": "function dun:item/kusodekadonki/_summon_kusodeka"
+                }
+              }
+            },
+            {
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
                   "attribute": "attack_damage",
-                  "amount": 0,
+                  "amount": 99,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_damage",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "attack_speed",
-                  "amount": 0,
+                  "amount": -3.5,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_speed",
                   "slot": "mainhand"

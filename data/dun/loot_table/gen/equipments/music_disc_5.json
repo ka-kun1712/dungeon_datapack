@@ -5,23 +5,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_sword",
+          "name": "minecraft:music_disc_5",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
                   "looting": {
-                    "tier": 5,
+                    "tier": 2,
                     "name": {
-                      "text": "ネザライトの剣",
-                      "color": "white"
+                      "text": "残響の弓",
+                      "color": "aqua"
                     }
                   },
                   "money": {
-                    "price": 1000
+                    "price": 100
                   },
-                  "loot_table": "dun:gen/items/netherite_sword"
+                  "loot_table": "dun:gen/items/music_disc_5"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",
@@ -32,18 +32,44 @@
               }
             },
             {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_model": "crossbow",
+                "consumable": {
+                  "consume_seconds": 2,
+                  "animation": "crossbow",
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "use_cooldown": {
+                  "seconds": 3
+                },
+                "!jukebox_playable": {},
+                "rarity": "common"
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": {
+                "usable": {
+                  "loot_table": "dun:gen/equipments/bow",
+                  "command": "function dun:item/arrow"
+                }
+              }
+            },
+            {
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
                   "attribute": "attack_damage",
-                  "amount": 1,
+                  "amount": 0,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_damage",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "attack_speed",
-                  "amount": 1,
+                  "amount": 0,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_speed",
                   "slot": "mainhand"

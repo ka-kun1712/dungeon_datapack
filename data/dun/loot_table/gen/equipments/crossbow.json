@@ -5,23 +5,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_axe",
+          "name": "minecraft:crossbow",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
                   "looting": {
-                    "tier": 5,
+                    "tier": 2,
                     "name": {
-                      "text": "ネザライトの斧",
+                      "text": "クロスボウ",
                       "color": "white"
                     }
                   },
                   "money": {
-                    "price": 1000
+                    "price": 100
                   },
-                  "loot_table": "dun:gen/items/netherite_axe"
+                  "loot_table": "dun:gen/items/crossbow"
                 },
                 "minecraft:custom_name": {
                   "text": "?????",
@@ -36,14 +36,14 @@
               "modifiers": [
                 {
                   "attribute": "attack_damage",
-                  "amount": 1,
+                  "amount": 0,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_damage",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "attack_speed",
-                  "amount": 1,
+                  "amount": 0,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_speed",
                   "slot": "mainhand"
