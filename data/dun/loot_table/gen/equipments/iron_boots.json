@@ -43,6 +43,13 @@
                   "operation": "add_value",
                   "id": "minecraft:armor.boots",
                   "slot": "feet"
+                },
+                {
+                  "attribute": "step_height",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "id": "minecraft:armor.boots",
+                  "slot": "feet"
                 }
               ]
             }
