@@ -1,0 +1,29 @@
+{
+  "values": [
+    "#boat",
+    "#impact_projectiles",
+    "#util:display",
+    "#util:item_frame",
+    "#util:minecart",
+    "#util:potion",
+    "armor_stand",
+    "end_crystal",
+    "evoker_fangs",
+    "experience_bottle",
+    "experience_orb",
+    "falling_block",
+    "fishing_bobber",
+    "interaction",
+    "item",
+    "leash_knot",
+    "lightning_bolt",
+    "llama_spit",
+    "marker",
+    "ominous_item_spawner",
+    "painting",
+    "player",
+    "tnt",
+    "trident",
+    "wither_skull"
+  ]
+}
