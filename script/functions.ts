@@ -239,6 +239,17 @@ function merge_functions(data: LootTable<ItemEntry>) {
           ...entry.components,
         },
       });
+    } else if (
+      entry.function === "minecraft:set_custom_data" ||
+      entry.function === "set_custom_data"
+    ) {
+      map.set(entry.function, {
+        function: "minecraft:set_custom_data",
+        tag: {
+          ...map.get(entry.function)?.tag,
+          ...entry.tag,
+        },
+      });
     } else {
       map.set(entry.function, {
         ...map.get(entry.function),

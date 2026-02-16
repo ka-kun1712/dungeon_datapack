@@ -48,7 +48,7 @@
               }
             },
             {
-              "function": "set_custom_data",
+              "function": "minecraft:set_custom_data",
               "tag": {
                 "usable": {
                   "loot_table": "dun:gen/equipments/healing_staff",

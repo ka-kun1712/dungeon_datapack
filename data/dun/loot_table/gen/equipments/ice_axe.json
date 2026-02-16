@@ -31,6 +31,17 @@
             {
               "function": "minecraft:set_custom_data",
               "tag": {
+                "looting": {
+                  "tier": 4,
+                  "name": {
+                    "text": "ダイヤモンドの斧",
+                    "color": "white"
+                  }
+                },
+                "money": {
+                  "price": 400
+                },
+                "loot_table": "dun:gen/items/ice_axe",
                 "usable": {
                   "loot_table": "dun:gen/equipments/ice_axe",
                   "command": "function dun:item/ice_sword/_summon_ice"
