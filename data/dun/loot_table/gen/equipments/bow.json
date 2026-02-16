@@ -15,7 +15,20 @@
                   "italic": false
                 },
                 "minecraft:item_name": "",
-                "minecraft:rarity": "common"
+                "minecraft:rarity": "common",
+                "item_model": "crossbow",
+                "consumable": {
+                  "consume_seconds": 2,
+                  "animation": "crossbow",
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "use_cooldown": {
+                  "seconds": 3
+                },
+                "!jukebox_playable": {},
+                "rarity": "common",
+                "minecraft:unbreakable": {}
               }
             },
             {
@@ -35,35 +48,12 @@
               }
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "item_model": "crossbow",
-                "consumable": {
-                  "consume_seconds": 2,
-                  "animation": "crossbow",
-                  "sound": "intentionally_empty",
-                  "has_consume_particles": false
-                },
-                "use_cooldown": {
-                  "seconds": 3
-                },
-                "!jukebox_playable": {},
-                "rarity": "common"
-              }
-            },
-            {
               "function": "set_custom_data",
               "tag": {
                 "usable": {
                   "loot_table": "dun:gen/equipments/bow",
                   "command": "function dun:item/arrow"
                 }
-              }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:unbreakable": {}
               }
             },
             {

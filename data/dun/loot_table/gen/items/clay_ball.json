@@ -7,17 +7,7 @@
           "type": "minecraft:item",
           "name": "minecraft:clay_ball",
           "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": {
-                  "text": "?????",
-                  "italic": false
-                },
-                "minecraft:item_name": "",
-                "minecraft:rarity": "common"
-              }
-            },
+            null,
             {
               "function": "minecraft:set_custom_data",
               "tag": {

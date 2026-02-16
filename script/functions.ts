@@ -19,6 +19,7 @@ import {
   ItemsTable,
   LootTable,
   LootTableEntry,
+  LootTableFunction,
 } from "./types";
 
 export async function gen_item_loot_tables() {
@@ -103,16 +104,16 @@ export async function gen_item_loot_tables() {
 
 function gen_item_loot_table(v: Item) {
   const { file_name, id, tier, price, name, lore, fn } = v;
-  console.log(id);
 
-  if (!id || !tier || !price || !name) {
-    console.log("Missing required fields");
+  if (!tier || !price || !name) {
+    console.log("Missing required fields at:", id);
     return;
   }
+
   const fmt_name =
     typeof name === "string" ? { text: name, color: "white" } : name;
 
-  const data: LootTable<ItemEntry> = {
+  let data: LootTable<ItemEntry> = {
     pools: [
       {
         rolls: 1,
@@ -159,8 +160,11 @@ function gen_item_loot_table(v: Item) {
   if (fn.length != 0) {
     data.pools[0].entries[0].functions =
       data.pools[0].entries[0].functions.concat(fn);
-    console.log(fn[0]);
   }
+
+  data = merge_functions(data);
+
+  console.log("generate", id, "\n");
 
   return data;
 }
@@ -218,4 +222,34 @@ export async function gen_equipment_loot_tables() {
   } catch (err) {
     console.error("Error:", err);
   }
+}
+
+function merge_functions(data: LootTable<ItemEntry>) {
+  const map: Map<string, LootTableFunction> = new Map();
+
+  for (const [i, entry] of data.pools[0].entries[0].functions.entries()) {
+    if (
+      entry.function === "minecraft:set_components" ||
+      entry.function === "set_components"
+    ) {
+      map.set(entry.function, {
+        function: "minecraft:set_components",
+        components: {
+          ...map.get(entry.function)?.components,
+          ...entry.components,
+        },
+      });
+    } else {
+      map.set(entry.function, {
+        ...map.get(entry.function),
+        ...entry,
+        function: entry.function,
+      });
+    }
+  }
+
+  let out = data;
+  out.pools[0].entries[0].functions = map.values().toArray();
+
+  return out;
 }

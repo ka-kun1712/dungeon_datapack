@@ -15,28 +15,7 @@
                   "italic": false
                 },
                 "minecraft:item_name": "",
-                "minecraft:rarity": "common"
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "looting": {
-                  "tier": 4,
-                  "name": {
-                    "text": "ダイヤモンドの斧",
-                    "color": "white"
-                  }
-                },
-                "money": {
-                  "price": 400
-                },
-                "loot_table": "dun:gen/items/ice_axe"
-              }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
+                "minecraft:rarity": "common",
                 "consumable": {
                   "consume_seconds": 0.3,
                   "animation": "spear",
@@ -45,7 +24,8 @@
                 },
                 "use_cooldown": {
                   "seconds": 1
-                }
+                },
+                "minecraft:unbreakable": {}
               }
             },
             {
@@ -55,12 +35,6 @@
                   "loot_table": "dun:gen/equipments/ice_axe",
                   "command": "function dun:item/ice_sword/_summon_ice"
                 }
-              }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:unbreakable": {}
               }
             },
             {

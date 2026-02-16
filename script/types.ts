@@ -7,7 +7,7 @@ export interface Item {
   rare_weight?: number;
   name: string | object;
   lore?: (string | object)[];
-  fn: object[];
+  fn: LootTableFunction[];
 }
 
 export interface ItemsTable {
@@ -24,7 +24,7 @@ export interface LootTable<T> {
 export interface ItemEntry {
   type: string;
   name: string;
-  functions: any[];
+  functions: LootTableFunction[];
   weight?: number;
   quality?: number;
 }
@@ -34,4 +34,9 @@ export interface LootTableEntry {
   value: string;
   weight?: number;
   quality?: number;
+}
+
+export interface LootTableFunction {
+  function: string;
+  [key: string]: any;
 }

@@ -15,7 +15,17 @@
                   "italic": false
                 },
                 "minecraft:item_name": "",
-                "minecraft:rarity": "common"
+                "minecraft:rarity": "common",
+                "consumable": {
+                  "consume_seconds": 0.3,
+                  "animation": "spear",
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "use_cooldown": {
+                  "seconds": 1
+                },
+                "minecraft:unbreakable": {}
               }
             },
             {
@@ -35,32 +45,12 @@
               }
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "consumable": {
-                  "consume_seconds": 0.3,
-                  "animation": "spear",
-                  "sound": "intentionally_empty",
-                  "has_consume_particles": false
-                },
-                "use_cooldown": {
-                  "seconds": 1
-                }
-              }
-            },
-            {
               "function": "set_custom_data",
               "tag": {
                 "usable": {
                   "loot_table": "dun:gen.equipments/lightning_axe",
                   "command": "function dun:item/lightning_axe/lightning_sword"
                 }
-              }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:unbreakable": {}
               }
             },
             {

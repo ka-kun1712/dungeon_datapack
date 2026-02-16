@@ -15,7 +15,8 @@
                   "italic": false
                 },
                 "minecraft:item_name": "",
-                "minecraft:rarity": "common"
+                "minecraft:rarity": "common",
+                "minecraft:unbreakable": {}
               }
             },
             {
@@ -32,12 +33,6 @@
                   "price": 50
                 },
                 "loot_table": "dun:gen/items/leather_boots"
-              }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:unbreakable": {}
               }
             },
             {
