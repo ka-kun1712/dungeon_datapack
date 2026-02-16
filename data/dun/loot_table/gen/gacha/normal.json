@@ -71,13 +71,13 @@
         },
         {
           "type": "loot_table",
-          "value": "dun:gen/equipments/diamond_sword",
+          "value": "dun:gen/equipments/ice_sword",
           "weight": 8,
           "quality": 1
         },
         {
           "type": "loot_table",
-          "value": "dun:gen/equipments/diamond_axe",
+          "value": "dun:gen/equipments/ice_axe",
           "weight": 8,
           "quality": 1
         },
@@ -113,13 +113,13 @@
         },
         {
           "type": "loot_table",
-          "value": "dun:gen/equipments/golden_sword",
+          "value": "dun:gen/equipments/lightning_sword",
           "weight": 15,
           "quality": 1
         },
         {
           "type": "loot_table",
-          "value": "dun:gen/equipments/golden_axe",
+          "value": "dun:gen/equipments/lightning_axe",
           "weight": 15,
           "quality": 1
         },
@@ -161,7 +161,7 @@
         },
         {
           "type": "loot_table",
-          "value": "dun:gen/equipments/music_disc_5",
+          "value": "dun:gen/equipments/bow",
           "weight": 25,
           "quality": 1
         },

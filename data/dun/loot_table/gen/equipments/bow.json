@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:music_disc_5",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -24,14 +24,40 @@
                 "looting": {
                   "tier": 2,
                   "name": {
-                    "text": "クレイモア",
-                    "color": "white"
+                    "text": "残響の弓",
+                    "color": "aqua"
                   }
                 },
                 "money": {
                   "price": 100
                 },
-                "loot_table": "dun:gen/items/iron_sword"
+                "loot_table": "dun:gen/items/bow"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_model": "crossbow",
+                "consumable": {
+                  "consume_seconds": 2,
+                  "animation": "crossbow",
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "use_cooldown": {
+                  "seconds": 3
+                },
+                "!jukebox_playable": {},
+                "rarity": "common"
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": {
+                "usable": {
+                  "loot_table": "dun:gen/equipments/bow",
+                  "command": "function dun:item/arrow"
+                }
               }
             },
             {
@@ -39,14 +65,14 @@
               "modifiers": [
                 {
                   "attribute": "attack_damage",
-                  "amount": 49,
+                  "amount": 0,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_damage",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "attack_speed",
-                  "amount": -3,
+                  "amount": 0,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_speed",
                   "slot": "mainhand"

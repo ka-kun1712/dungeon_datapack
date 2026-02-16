@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:golden_sword",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -22,16 +22,39 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "looting": {
-                  "tier": 2,
+                  "tier": 3,
                   "name": {
-                    "text": "クレイモア",
-                    "color": "white"
+                    "text": "召雷の剣",
+                    "color": "yellow"
                   }
                 },
                 "money": {
-                  "price": 100
+                  "price": 200
                 },
-                "loot_table": "dun:gen/items/iron_sword"
+                "loot_table": "dun:gen/items/lightning_sword"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "consumable": {
+                  "consume_seconds": 0.3,
+                  "animation": "spear",
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "use_cooldown": {
+                  "seconds": 1
+                }
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": {
+                "usable": {
+                  "loot_table": "dun:gen/equipments/lightning_sword",
+                  "command": "function dun:item/lightning_sword/lightning_sword"
+                }
               }
             },
             {
@@ -39,14 +62,14 @@
               "modifiers": [
                 {
                   "attribute": "attack_damage",
-                  "amount": 49,
+                  "amount": 29,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_damage",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "attack_speed",
-                  "amount": -3,
+                  "amount": -2,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_speed",
                   "slot": "mainhand"

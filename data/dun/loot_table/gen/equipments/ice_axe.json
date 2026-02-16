@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:diamond_axe",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -22,16 +22,39 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "looting": {
-                  "tier": 2,
+                  "tier": 4,
                   "name": {
-                    "text": "クレイモア",
+                    "text": "ダイヤモンドの斧",
                     "color": "white"
                   }
                 },
                 "money": {
-                  "price": 100
+                  "price": 400
                 },
-                "loot_table": "dun:gen/items/iron_sword"
+                "loot_table": "dun:gen/items/ice_axe"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "consumable": {
+                  "consume_seconds": 0.3,
+                  "animation": "spear",
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "use_cooldown": {
+                  "seconds": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "usable": {
+                  "loot_table": "dun:gen/equipments/ice_axe",
+                  "command": "function dun:item/ice_sword/_summon_ice"
+                }
               }
             },
             {
@@ -39,7 +62,7 @@
               "modifiers": [
                 {
                   "attribute": "attack_damage",
-                  "amount": 49,
+                  "amount": 59,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_damage",
                   "slot": "mainhand"
