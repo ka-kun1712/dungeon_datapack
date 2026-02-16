@@ -10,19 +10,35 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "item_model": "crossbow",
+                "item_model": "nether_star",
+                "attribute_modifiers": [
+                  {
+                    "operation": "add_value",
+                    "type": "attack_damage",
+                    "amount": 19,
+                    "id": "minecraft:base_attack_damage",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "operation": "add_value",
+                    "type": "attack_speed",
+                    "amount": -3,
+                    "id": "minecraft:base_attack_speed",
+                    "slot": "mainhand"
+                  }
+                ],
                 "minecraft:custom_data": {
                   "looting": {
-                    "tier": 5,
+                    "tier": 9,
                     "price": 80,
                     "name": {
-                      "text": "残響の弓",
-                      "color": "aqua"
+                      "text": "スタンド",
+                      "color": "#FF5CB6"
                     }
                   },
                   "usable": {
-                    "loot_table": "dun:item/bow",
-                    "command": "function dun:item/arrow"
+                    "loot_table": "dun:item/stand",
+                    "command": "function dun:item/stand/_summon_stand"
                   }
                 },
                 "minecraft:custom_name": {
@@ -30,13 +46,13 @@
                   "italic": false
                 },
                 "consumable": {
-                  "consume_seconds": 0.05,
-                  "animation": "crossbow",
+                  "consume_seconds": 0.1,
+                  "animation": "bow",
                   "sound": "intentionally_empty",
                   "has_consume_particles": false
                 },
                 "use_cooldown": {
-                  "seconds": 0.01
+                  "seconds": 4
                 },
                 "!jukebox_playable": {},
                 "rarity": "common"

@@ -1,0 +1,1 @@
+execute as @a at @s run tp @e[type=armor_stand,tag= stand,scores={duration=-19..}] ^-0.5 ^0.2 ^-1 ~ ~

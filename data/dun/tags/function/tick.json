@@ -11,6 +11,8 @@
     "dun:item/flame_axe/flame_main",
     "dun:item/flame_axe/flame",
     "dun:item/healing_staff/heal",
-    "dun:item/healing_staff/heal_main"
+    "dun:item/healing_staff/heal_main",
+    "dun:item/stand/stand",
+    "dun:item/stand/stand_main"
   ]
 }
