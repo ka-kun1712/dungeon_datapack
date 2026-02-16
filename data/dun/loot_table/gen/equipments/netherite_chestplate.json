@@ -51,6 +51,13 @@
                   "operation": "add_value",
                   "id": "minecraft:armor.chestplate",
                   "slot": "chest"
+                },
+                {
+                  "attribute": "max_health",
+                  "amount": 60,
+                  "operation": "add_value",
+                  "id": "minecraft:armor.chestplate",
+                  "slot": "chest"
                 }
               ]
             }
