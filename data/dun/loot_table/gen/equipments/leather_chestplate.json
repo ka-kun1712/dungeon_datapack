@@ -32,7 +32,7 @@
                 "money": {
                   "price": 50
                 },
-                "loot_table": "dun:gen/items/leather_chestplate"
+                "loot_table": "dun:gen/equipments/leather_chestplate"
               }
             },
             {

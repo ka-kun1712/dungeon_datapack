@@ -32,7 +32,7 @@
                 "money": {
                   "price": 100
                 },
-                "loot_table": "dun:gen/items/crossbow"
+                "loot_table": "dun:gen/equipments/crossbow"
               }
             },
             {

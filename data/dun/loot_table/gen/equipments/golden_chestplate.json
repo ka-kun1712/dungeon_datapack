@@ -32,7 +32,7 @@
                 "money": {
                   "price": 200
                 },
-                "loot_table": "dun:gen/items/golden_chestplate"
+                "loot_table": "dun:gen/equipments/golden_chestplate"
               }
             },
             {

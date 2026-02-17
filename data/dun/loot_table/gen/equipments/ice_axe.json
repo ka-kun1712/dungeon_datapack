@@ -41,7 +41,7 @@
                 "money": {
                   "price": 400
                 },
-                "loot_table": "dun:gen/items/ice_axe",
+                "loot_table": "dun:gen/equipments/ice_axe",
                 "usable": {
                   "loot_table": "dun:gen/equipments/ice_axe",
                   "command": "function dun:item/ice_sword/_summon_ice"

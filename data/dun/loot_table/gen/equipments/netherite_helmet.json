@@ -32,7 +32,7 @@
                 "money": {
                   "price": 1000
                 },
-                "loot_table": "dun:gen/items/netherite_helmet"
+                "loot_table": "dun:gen/equipments/netherite_helmet"
               }
             },
             {

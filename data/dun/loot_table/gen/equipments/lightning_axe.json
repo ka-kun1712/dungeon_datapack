@@ -41,7 +41,7 @@
                 "money": {
                   "price": 200
                 },
-                "loot_table": "dun:gen/items/lightning_axe"
+                "loot_table": "dun:gen/equipments/lightning_axe"
               }
             },
             {

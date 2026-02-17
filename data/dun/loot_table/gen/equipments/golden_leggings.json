@@ -32,7 +32,7 @@
                 "money": {
                   "price": 200
                 },
-                "loot_table": "dun:gen/items/golden_leggings"
+                "loot_table": "dun:gen/equipments/golden_leggings"
               }
             },
             {

@@ -41,7 +41,7 @@
                 "money": {
                   "price": 100
                 },
-                "loot_table": "dun:gen/items/iron_axe",
+                "loot_table": "dun:gen/equipments/iron_axe",
                 "usable": {
                   "loot_table": "dun:gen/equipments/iron_sword",
                   "command": "function dun:item/iron_sword/iron_sword"

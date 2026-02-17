@@ -44,7 +44,7 @@
                 "money": {
                   "price": 400
                 },
-                "loot_table": "dun:gen/items/healing_staff"
+                "loot_table": "dun:gen/equipments/healing_staff"
               }
             },
             {

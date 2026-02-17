@@ -32,7 +32,7 @@
                 "money": {
                   "price": 100
                 },
-                "loot_table": "dun:gen/items/iron_leggings"
+                "loot_table": "dun:gen/equipments/iron_leggings"
               }
             },
             {

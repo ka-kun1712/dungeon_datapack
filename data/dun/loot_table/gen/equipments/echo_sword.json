@@ -41,7 +41,7 @@
                 "money": {
                   "price": 1000
                 },
-                "loot_table": "dun:gen/items/echo_sword"
+                "loot_table": "dun:gen/equipments/echo_sword"
               }
             },
             {

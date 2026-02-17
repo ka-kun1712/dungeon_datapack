@@ -41,7 +41,7 @@
                 "money": {
                   "price": 200
                 },
-                "loot_table": "dun:gen/items/lightning_sword"
+                "loot_table": "dun:gen/equipments/lightning_sword"
               }
             },
             {

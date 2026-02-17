@@ -44,7 +44,7 @@
                 "money": {
                   "price": 100
                 },
-                "loot_table": "dun:gen/items/bow"
+                "loot_table": "dun:gen/equipments/bow"
               }
             },
             {

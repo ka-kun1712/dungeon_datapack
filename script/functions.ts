@@ -36,7 +36,7 @@ export async function gen_item_loot_tables() {
     };
 
     for (const v of table.items) {
-      const loot_table = gen_item_loot_table(v);
+      const loot_table = gen_item_loot_table(v,"items");
       if (!loot_table) continue;
 
       const file_path = path.join(
@@ -102,7 +102,7 @@ export async function gen_item_loot_tables() {
   }
 }
 
-function gen_item_loot_table(v: Item) {
+function gen_item_loot_table(v: Item, namespace: string) {
   const { file_name, id, tier, price, name, lore, fn } = v;
 
   if (!tier || !price || !name) {
@@ -143,7 +143,7 @@ function gen_item_loot_table(v: Item) {
                   money: {
                     price,
                   },
-                  loot_table: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${file_name}`,
+                  loot_table: `${NAMESPACE}:${LOOT_TABLE_PATH}/${namespace}/${file_name}`,
                 },
               },
             ],
@@ -180,7 +180,7 @@ export async function gen_equipment_loot_tables() {
     };
 
     for (const v of table.items) {
-      const loot_table = gen_item_loot_table(v);
+      const loot_table = gen_item_loot_table(v, "equipments");
       if (!loot_table) continue;
 
       const file_path = path.join(

@@ -41,7 +41,7 @@
                 "money": {
                   "price": 1000
                 },
-                "loot_table": "dun:gen/items/kusodekadonki"
+                "loot_table": "dun:gen/equipments/kusodekadonki"
               }
             },
             {
