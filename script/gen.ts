@@ -23,6 +23,6 @@ export const EQUIPMENTS_FILE_PATH = "equipments.json";
 export const DEFAULT_NAME = "?????";
 
 (async function () {
-  gen_item_loot_tables();
-  gen_equipment_loot_tables();
+  await gen_item_loot_tables();
+  await gen_equipment_loot_tables();
 })();
