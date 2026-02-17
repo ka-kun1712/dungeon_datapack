@@ -1,8 +1,7 @@
 {
   "values": [
     "dun:boss/tick",
-    "dun:item/echo_sword/sonic_main",
-    "dun:item/echo_sword/sonic_charge",
+    "dun:item/echo_sword/tick",
     "dun:item/lightning_sword/lightning_main",
     "dun:item/lightning_axe/lightning_main",
     "dun:item/ice_sword/ice_main",
