@@ -1,5 +1,5 @@
 scoreboard players remove @s duration 1
-execute as @e[type=!#dun:ignore_damage] at @s if entity @e[type=armor_stand, tag= iron,distance=..5] run damage @s 10
+execute as @e[type=!#dun:ignore_damage] at @s if entity @e[type=armor_stand, tag= iron,distance=..5] run damage @s 10 generic by @s
 # execute as @e[type=!#dun:ignore_damage] at @s if entity @n[type=armor_stand, tag= iron,distance=..2] run setblock ~ ~ ~ iron keep
 # execute as @e[type=!#dun:ignore_damage] at @s if entity @n[type=armor_stand, tag= iron,distance=..2] run setblock ~ ~1 ~ iron keep
 # execute as @e[tag= iron,scores={duration=..10, duration=7..}] at @s run tp @s ^ ^ ^1
