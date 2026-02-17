@@ -13,7 +13,7 @@ import {
   NORMAL_FILENAME,
   PICKUP_DIR,
   RARE_FILENAME,
-} from "./gen";
+} from "./env";
 
 import {
   Item,
