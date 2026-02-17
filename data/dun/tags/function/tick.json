@@ -8,7 +8,6 @@
     "dun:item/ice_sword/ice_charge",
     "dun:item/iron_sword/iron_main",
     "dun:item/flame_axe/tick",
-    "dun:item/healing_staff/heal",
-    "dun:item/healing_staff/heal_main"
+    "dun:item/healing_staff/tick"
   ]
 }
