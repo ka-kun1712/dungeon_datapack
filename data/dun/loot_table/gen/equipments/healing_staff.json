@@ -44,12 +44,7 @@
                 "money": {
                   "price": 400
                 },
-                "loot_table": "dun:gen/equipments/healing_staff"
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
+                "loot_table": "dun:gen/equipments/healing_staff",
                 "usable": {
                   "loot_table": "dun:gen/equipments/healing_staff",
                   "command": "function dun:item/healing_staff/_summon_heal"

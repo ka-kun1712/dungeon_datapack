@@ -41,12 +41,7 @@
                 "money": {
                   "price": 1000
                 },
-                "loot_table": "dun:gen/equipments/kusodekadonki"
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
+                "loot_table": "dun:gen/equipments/kusodekadonki",
                 "usable": {
                   "loot_table": "dun:gen/equipments/kusodekadonki",
                   "command": "function dun:item/kusodekadonki/_summon_kusodeka"

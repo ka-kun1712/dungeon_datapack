@@ -1,6 +1,8 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
+import * as es from "es-toolkit";
+
 import {
   DEFAULT_NAME,
   EQUIPMENTS_FILE_PATH,
@@ -236,10 +238,10 @@ function merge_functions(data: LootTable<ItemEntry>) {
     ) {
       map.set("minecraft:set_components", {
         function: "minecraft:set_components",
-        components: {
-          ...map.get("minecraft:set_components")?.components,
-          ...entry.components,
-        },
+        components: es.merge(
+          map.get("minecraft:set_components")?.components ?? {},
+          entry.components ?? {},
+        ),
       });
     } else if (
       entry.function === "minecraft:set_custom_data" ||
@@ -247,10 +249,10 @@ function merge_functions(data: LootTable<ItemEntry>) {
     ) {
       map.set("minecraft:set_custom_data", {
         function: "minecraft:set_custom_data",
-        tag: {
-          ...map.get("minecraft:set_custom_data")?.tag,
-          ...entry.tag,
-        },
+        tag: es.merge(
+          map.get("minecraft:set_custom_data")?.tag ?? {},
+          entry.tag ?? {},
+        ),
       });
     } else {
       map.set(

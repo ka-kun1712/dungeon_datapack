@@ -41,12 +41,7 @@
                 "money": {
                   "price": 200
                 },
-                "loot_table": "dun:gen/equipments/lightning_axe"
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
+                "loot_table": "dun:gen/equipments/lightning_axe",
                 "usable": {
                   "loot_table": "dun:gen.equipments/lightning_axe",
                   "command": "function dun:item/lightning_axe/lightning_sword"

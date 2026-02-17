@@ -41,12 +41,7 @@
                 "money": {
                   "price": 200
                 },
-                "loot_table": "dun:gen/equipments/lightning_sword"
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
+                "loot_table": "dun:gen/equipments/lightning_sword",
                 "usable": {
                   "loot_table": "dun:gen/equipments/lightning_sword",
                   "command": "function dun:item/lightning_sword/lightning_sword"

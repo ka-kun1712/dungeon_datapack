@@ -44,12 +44,7 @@
                 "money": {
                   "price": 100
                 },
-                "loot_table": "dun:gen/equipments/bow"
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
+                "loot_table": "dun:gen/equipments/bow",
                 "usable": {
                   "loot_table": "dun:gen/equipments/bow",
                   "command": "function dun:item/arrow"
