@@ -36,7 +36,7 @@ export async function gen_item_loot_tables() {
     };
 
     for (const v of table.items) {
-      const loot_table = gen_item_loot_table(v,"items");
+      const loot_table = gen_item_loot_table(v, "items");
       if (!loot_table) continue;
 
       const file_path = path.join(
@@ -227,15 +227,17 @@ export async function gen_equipment_loot_tables() {
 function merge_functions(data: LootTable<ItemEntry>) {
   const map: Map<string, LootTableFunction> = new Map();
 
-  for (const [i, entry] of data.pools[0].entries[0].functions.entries()) {
+  for (const entry of data.pools[0].entries[0].functions) {
+    console.log(entry.function);
+
     if (
       entry.function === "minecraft:set_components" ||
       entry.function === "set_components"
     ) {
-      map.set(entry.function, {
+      map.set("minecraft:set_components", {
         function: "minecraft:set_components",
         components: {
-          ...map.get(entry.function)?.components,
+          ...map.get("minecraft:set_components")?.components,
           ...entry.components,
         },
       });
@@ -243,24 +245,31 @@ function merge_functions(data: LootTable<ItemEntry>) {
       entry.function === "minecraft:set_custom_data" ||
       entry.function === "set_custom_data"
     ) {
-      map.set(entry.function, {
+      map.set("minecraft:set_custom_data", {
         function: "minecraft:set_custom_data",
         tag: {
-          ...map.get(entry.function)?.tag,
+          ...map.get("minecraft:set_custom_data")?.tag,
           ...entry.tag,
         },
       });
     } else {
-      map.set(entry.function, {
-        ...map.get(entry.function),
-        ...entry,
-        function: entry.function,
-      });
+      map.set(
+        entry.function.startsWith("minecraft:")
+          ? entry.function
+          : "minecraft:" + entry.function,
+        {
+          ...map.get(entry.function),
+          ...entry,
+          function: entry.function,
+        },
+      );
     }
   }
 
   let out = data;
   out.pools[0].entries[0].functions = map.values().toArray();
+
+  console.log(JSON.stringify(map.values().toArray()));
 
   return out;
 }
