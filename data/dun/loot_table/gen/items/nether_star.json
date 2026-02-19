@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 5,
-                    "name": {
-                      "text": "星の欠片",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "綺麗な星の欠片",
-                      "その希少性からとても高く売れる"
-                    ]
-                  },
-                  "money": {
-                    "price": 5000
-                  },
-                  "loot_table": "dun:gen/items/nether_star"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 5,
+                  "name": {
+                    "text": "星の欠片",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "綺麗な星の欠片",
+                    "その希少性からとても高く売れる"
+                  ]
+                },
+                "money": {
+                  "price": 5000
+                },
+                "loot_table": "dun:gen/items/nether_star"
               }
             }
           ]

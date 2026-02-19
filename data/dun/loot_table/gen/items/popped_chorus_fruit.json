@@ -10,28 +10,31 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 2,
-                    "name": {
-                      "text": "紫キャベツ",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "普通のキャベツよりも葉が厚いので食感が良い"
-                    ]
-                  },
-                  "money": {
-                    "price": 200
-                  },
-                  "loot_table": "dun:gen/items/popped_chorus_fruit"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 2,
+                  "name": {
+                    "text": "紫キャベツ",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "普通のキャベツよりも葉が厚いので食感が良い"
+                  ]
+                },
+                "money": {
+                  "price": 200
+                },
+                "loot_table": "dun:gen/items/popped_chorus_fruit"
               }
             }
           ]

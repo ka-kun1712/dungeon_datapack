@@ -10,25 +10,29 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 1,
-                    "name": {
-                      "text": "チェーンのブーツ",
-                      "color": "white"
-                    }
-                  },
-                  "money": {
-                    "price": 50
-                  },
-                  "loot_table": "dun:gen/items/chainmail_boots"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
-                "minecraft:rarity": "common"
+                "minecraft:rarity": "common",
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 1,
+                  "name": {
+                    "text": "チェーンのブーツ",
+                    "color": "white"
+                  }
+                },
+                "money": {
+                  "price": 50
+                },
+                "loot_table": "dun:gen/equipments/chainmail_boots"
               }
             },
             {
@@ -36,6 +40,13 @@
               "modifiers": [
                 {
                   "attribute": "armor",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "id": "minecraft:armor.boots",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "step_height",
                   "amount": 1,
                   "operation": "add_value",
                   "id": "minecraft:armor.boots",

@@ -20,4 +20,4 @@ moneyスコアボードの管理
 右クリック可能アイテム
 
 # LICENSE
-&copy; 2026 monax-owo
+&copy; 2026 monax-owo, ka-kun1712

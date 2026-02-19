@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mace",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
+                },
+                "minecraft:item_name": "",
+                "minecraft:rarity": "common",
+                "consumable": {
+                  "consume_seconds": 1,
+                  "animation": "spear",
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "use_cooldown": {
+                  "seconds": 1
+                },
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 5,
+                  "name": {
+                    "text": "クソデカ鈍器",
+                    "color": "red"
+                  }
+                },
+                "money": {
+                  "price": 1000
+                },
+                "loot_table": "dun:gen/equipments/kusodekadonki",
+                "usable": {
+                  "loot_table": "dun:gen/equipments/kusodekadonki",
+                  "command": "function dun:item/kusodekadonki/_summon_kusodeka"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "attack_damage",
+                  "amount": 99,
+                  "operation": "add_value",
+                  "id": "minecraft:base_attack_damage",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "attack_speed",
+                  "amount": -3.5,
+                  "operation": "add_value",
+                  "id": "minecraft:base_attack_speed",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

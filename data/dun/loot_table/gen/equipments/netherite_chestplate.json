@@ -10,25 +10,29 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 5,
-                    "name": {
-                      "text": "ネザライトのチェストプレート",
-                      "color": "white"
-                    }
-                  },
-                  "money": {
-                    "price": 1000
-                  },
-                  "loot_table": "dun:gen/items/netherite_chestplate"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
-                "minecraft:rarity": "common"
+                "minecraft:rarity": "common",
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 5,
+                  "name": {
+                    "text": "ネザライトのチェストプレート",
+                    "color": "white"
+                  }
+                },
+                "money": {
+                  "price": 1000
+                },
+                "loot_table": "dun:gen/equipments/netherite_chestplate"
               }
             },
             {
@@ -44,6 +48,13 @@
                 {
                   "attribute": "armor_toughness",
                   "amount": 3,
+                  "operation": "add_value",
+                  "id": "minecraft:armor.chestplate",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "max_health",
+                  "amount": 60,
                   "operation": "add_value",
                   "id": "minecraft:armor.chestplate",
                   "slot": "chest"

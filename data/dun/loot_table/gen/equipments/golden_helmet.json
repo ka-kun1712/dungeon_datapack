@@ -10,25 +10,29 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 3,
-                    "name": {
-                      "text": "金のヘルメット",
-                      "color": "white"
-                    }
-                  },
-                  "money": {
-                    "price": 200
-                  },
-                  "loot_table": "dun:gen/items/golden_helmet"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
-                "minecraft:rarity": "common"
+                "minecraft:rarity": "common",
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 3,
+                  "name": {
+                    "text": "金のヘルメット",
+                    "color": "white"
+                  }
+                },
+                "money": {
+                  "price": 200
+                },
+                "loot_table": "dun:gen/equipments/golden_helmet"
               }
             },
             {

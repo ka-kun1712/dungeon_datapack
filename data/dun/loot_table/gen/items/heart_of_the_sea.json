@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 5,
-                    "name": {
-                      "text": "海洋の心",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "海を統べる者が遺した遺物",
-                      "持っていると海の感情を感じる"
-                    ]
-                  },
-                  "money": {
-                    "price": 4000
-                  },
-                  "loot_table": "dun:gen/items/heart_of_the_sea"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 5,
+                  "name": {
+                    "text": "海洋の心",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "海を統べる者が遺した遺物",
+                    "持っていると海の感情を感じる"
+                  ]
+                },
+                "money": {
+                  "price": 4000
+                },
+                "loot_table": "dun:gen/items/heart_of_the_sea"
               }
             }
           ]

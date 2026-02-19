@@ -10,25 +10,29 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 4,
-                    "name": {
-                      "text": "ダイヤモンドのブーツ",
-                      "color": "white"
-                    }
-                  },
-                  "money": {
-                    "price": 400
-                  },
-                  "loot_table": "dun:gen/items/diamond_boots"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
-                "minecraft:rarity": "common"
+                "minecraft:rarity": "common",
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 4,
+                  "name": {
+                    "text": "ダイヤモンドのブーツ",
+                    "color": "white"
+                  }
+                },
+                "money": {
+                  "price": 400
+                },
+                "loot_table": "dun:gen/equipments/diamond_boots"
               }
             },
             {
@@ -43,6 +47,13 @@
                 },
                 {
                   "attribute": "armor_toughness",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "id": "minecraft:armor.boots",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "step_height",
                   "amount": 2,
                   "operation": "add_value",
                   "id": "minecraft:armor.boots",

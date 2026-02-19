@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 5,
-                    "name": {
-                      "text": "本命チョコ",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "愛をとても強く感じるチョコ",
-                      "味は甘いがその思いは甘く見てはいけない"
-                    ]
-                  },
-                  "money": {
-                    "price": 4500
-                  },
-                  "loot_table": "dun:gen/items/netherite_ingot"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 5,
+                  "name": {
+                    "text": "本命チョコ",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "愛をとても強く感じるチョコ",
+                    "味は甘いがその思いは甘く見てはいけない"
+                  ]
+                },
+                "money": {
+                  "price": 4500
+                },
+                "loot_table": "dun:gen/items/netherite_ingot"
               }
             }
           ]

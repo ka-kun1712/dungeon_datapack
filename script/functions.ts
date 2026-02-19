@@ -1,6 +1,8 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
+import * as es from "es-toolkit";
+
 import {
   DEFAULT_NAME,
   EQUIPMENTS_FILE_PATH,
@@ -11,7 +13,7 @@ import {
   NORMAL_FILENAME,
   PICKUP_DIR,
   RARE_FILENAME,
-} from "./gen";
+} from "./env";
 
 import {
   Item,
@@ -19,6 +21,7 @@ import {
   ItemsTable,
   LootTable,
   LootTableEntry,
+  LootTableFunction,
 } from "./types";
 
 export async function gen_item_loot_tables() {
@@ -35,7 +38,7 @@ export async function gen_item_loot_tables() {
     };
 
     for (const v of table.items) {
-      const loot_table = gen_item_loot_table(v);
+      const loot_table = gen_item_loot_table(v, "items");
       if (!loot_table) continue;
 
       const file_path = path.join(
@@ -51,7 +54,7 @@ export async function gen_item_loot_tables() {
         JSON.stringify(loot_table, null, 2),
         "utf-8",
       );
-let a = a ?? "a";
+
       normal_pickup_loot_table.pools[0].entries.push({
         type: "loot_table",
         value: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${v.file_name}`,
@@ -101,16 +104,18 @@ let a = a ?? "a";
   }
 }
 
-function gen_item_loot_table(v: Item) {
+function gen_item_loot_table(v: Item, namespace: string) {
   const { file_name, id, tier, price, name, lore, fn } = v;
-  console.log(id);
 
-  if (!id || !tier || !price || !name) {
-    console.log("Missing required fields");
+  if (!tier || !price || !name) {
+    console.log("Missing required fields at:", id);
     return;
   }
 
-  const data: LootTable<ItemEntry> = {
+  const fmt_name =
+    typeof name === "string" ? { text: name, color: "white" } : name;
+
+  let data: LootTable<ItemEntry> = {
     pools: [
       {
         rolls: 1,
@@ -122,22 +127,25 @@ function gen_item_loot_table(v: Item) {
               {
                 function: "minecraft:set_components",
                 components: {
-                  "minecraft:custom_data": {
-                    looting: {
-                      tier: tier,
-                      name: { text: name, color: "white" },
-                    },
-                    money: {
-                      price,
-                    },
-                    loot_table: `${NAMESPACE}:${LOOT_TABLE_PATH}/items/${file_name}`,
-                  },
                   "minecraft:custom_name": {
                     text: DEFAULT_NAME,
                     italic: false,
                   },
                   "minecraft:item_name": "",
                   "minecraft:rarity": "common",
+                },
+              },
+              {
+                function: "minecraft:set_custom_data",
+                tag: {
+                  looting: {
+                    tier: tier,
+                    name: fmt_name,
+                  },
+                  money: {
+                    price,
+                  },
+                  loot_table: `${NAMESPACE}:${LOOT_TABLE_PATH}/${namespace}/${file_name}`,
                 },
               },
             ],
@@ -148,16 +156,17 @@ function gen_item_loot_table(v: Item) {
   };
 
   if (lore && lore.length != 0 && lore[0] != "") {
-    data.pools[0].entries[0].functions[0].components[
-      "minecraft:custom_data"
-    ].looting.lore = lore;
+    data.pools[0].entries[0].functions[1].tag.looting.lore = lore;
   }
 
   if (fn.length != 0) {
     data.pools[0].entries[0].functions =
       data.pools[0].entries[0].functions.concat(fn);
-    console.log(fn[0]);
   }
+
+  data = merge_functions(data);
+
+  console.log("generate", id, "\n");
 
   return data;
 }
@@ -173,7 +182,7 @@ export async function gen_equipment_loot_tables() {
     };
 
     for (const v of table.items) {
-      const loot_table = gen_item_loot_table(v);
+      const loot_table = gen_item_loot_table(v, "equipments");
       if (!loot_table) continue;
 
       const file_path = path.join(
@@ -215,4 +224,54 @@ export async function gen_equipment_loot_tables() {
   } catch (err) {
     console.error("Error:", err);
   }
+}
+
+function merge_functions(data: LootTable<ItemEntry>) {
+  const map: Map<string, LootTableFunction> = new Map();
+
+  for (const entry of data.pools[0].entries[0].functions) {
+    console.log(entry.function);
+
+    if (
+      entry.function === "minecraft:set_components" ||
+      entry.function === "set_components"
+    ) {
+      map.set("minecraft:set_components", {
+        function: "minecraft:set_components",
+        components: es.merge(
+          map.get("minecraft:set_components")?.components ?? {},
+          entry.components ?? {},
+        ),
+      });
+    } else if (
+      entry.function === "minecraft:set_custom_data" ||
+      entry.function === "set_custom_data"
+    ) {
+      map.set("minecraft:set_custom_data", {
+        function: "minecraft:set_custom_data",
+        tag: es.merge(
+          map.get("minecraft:set_custom_data")?.tag ?? {},
+          entry.tag ?? {},
+        ),
+      });
+    } else {
+      map.set(
+        entry.function.startsWith("minecraft:")
+          ? entry.function
+          : "minecraft:" + entry.function,
+        {
+          ...map.get(entry.function),
+          ...entry,
+          function: entry.function,
+        },
+      );
+    }
+  }
+
+  let out = data;
+  out.pools[0].entries[0].functions = map.values().toArray();
+
+  console.log(JSON.stringify(map.values().toArray()));
+
+  return out;
 }

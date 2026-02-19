@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 4,
-                    "name": {
-                      "text": "ドロップス",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "ドロップス",
-                      "メロン味"
-                    ]
-                  },
-                  "money": {
-                    "price": 1200
-                  },
-                  "loot_table": "dun:gen/items/emerald"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 4,
+                  "name": {
+                    "text": "ドロップス",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "ドロップス",
+                    "メロン味"
+                  ]
+                },
+                "money": {
+                  "price": 1200
+                },
+                "loot_table": "dun:gen/items/emerald"
               }
             }
           ]

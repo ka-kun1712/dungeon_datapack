@@ -10,28 +10,31 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 1,
-                    "name": {
-                      "text": "赤いきのこ",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "あまりにも色が毒すぎる"
-                    ]
-                  },
-                  "money": {
-                    "price": 70
-                  },
-                  "loot_table": "dun:gen/items/nether_wart"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 1,
+                  "name": {
+                    "text": "赤いきのこ",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "あまりにも色が毒すぎる"
+                  ]
+                },
+                "money": {
+                  "price": 70
+                },
+                "loot_table": "dun:gen/items/nether_wart"
               }
             }
           ]

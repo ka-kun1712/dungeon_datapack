@@ -10,25 +10,29 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 2,
-                    "name": {
-                      "text": "鉄のヘルメット",
-                      "color": "white"
-                    }
-                  },
-                  "money": {
-                    "price": 100
-                  },
-                  "loot_table": "dun:gen/items/iron_helmet"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
-                "minecraft:rarity": "common"
+                "minecraft:rarity": "common",
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 2,
+                  "name": {
+                    "text": "鉄のヘルメット",
+                    "color": "white"
+                  }
+                },
+                "money": {
+                  "price": 100
+                },
+                "loot_table": "dun:gen/equipments/iron_helmet"
               }
             },
             {

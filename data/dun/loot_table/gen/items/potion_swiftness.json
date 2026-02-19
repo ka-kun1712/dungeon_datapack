@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 3,
-                    "name": {
-                      "text": "エナジードリンク",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "珍しい色のジュース",
-                      "飲むと足が速くなる"
-                    ]
-                  },
-                  "money": {
-                    "price": 800
-                  },
-                  "loot_table": "dun:gen/items/potion_swiftness"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 3,
+                  "name": {
+                    "text": "エナジードリンク",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "珍しい色のジュース",
+                    "飲むと足が速くなる"
+                  ]
+                },
+                "money": {
+                  "price": 800
+                },
+                "loot_table": "dun:gen/items/potion_swiftness"
               }
             },
             {

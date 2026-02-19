@@ -10,25 +10,29 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 2,
-                    "name": {
-                      "text": "鉄のブーツ",
-                      "color": "white"
-                    }
-                  },
-                  "money": {
-                    "price": 100
-                  },
-                  "loot_table": "dun:gen/items/iron_boots"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
-                "minecraft:rarity": "common"
+                "minecraft:rarity": "common",
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 2,
+                  "name": {
+                    "text": "鉄のブーツ",
+                    "color": "white"
+                  }
+                },
+                "money": {
+                  "price": 100
+                },
+                "loot_table": "dun:gen/equipments/iron_boots"
               }
             },
             {
@@ -37,6 +41,13 @@
                 {
                   "attribute": "armor",
                   "amount": 2,
+                  "operation": "add_value",
+                  "id": "minecraft:armor.boots",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "step_height",
+                  "amount": 1,
                   "operation": "add_value",
                   "id": "minecraft:armor.boots",
                   "slot": "feet"

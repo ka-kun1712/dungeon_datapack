@@ -1,6 +1,6 @@
 # 
 scoreboard objectives add duration dummy
-scoreboard objectives add sonic_charg dummy
+scoreboard objectives add sonic_charge dummy
 scoreboard objectives add ice dummy
 scoreboard objectives add damage minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add sneak minecraft.custom:sneak_time

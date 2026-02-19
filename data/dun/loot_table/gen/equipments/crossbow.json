@@ -5,30 +5,34 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_sword",
+          "name": "minecraft:crossbow",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 3,
-                    "name": {
-                      "text": "金の剣",
-                      "color": "white"
-                    }
-                  },
-                  "money": {
-                    "price": 200
-                  },
-                  "loot_table": "dun:gen/items/golden_sword"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
-                "minecraft:rarity": "common"
+                "minecraft:rarity": "common",
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 2,
+                  "name": {
+                    "text": "クロスボウ",
+                    "color": "white"
+                  }
+                },
+                "money": {
+                  "price": 100
+                },
+                "loot_table": "dun:gen/equipments/crossbow"
               }
             },
             {
@@ -36,14 +40,14 @@
               "modifiers": [
                 {
                   "attribute": "attack_damage",
-                  "amount": 1,
+                  "amount": 0,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_damage",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "attack_speed",
-                  "amount": 1,
+                  "amount": 0,
                   "operation": "add_value",
                   "id": "minecraft:base_attack_speed",
                   "slot": "mainhand"

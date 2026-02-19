@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_5",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "?????",
+                  "italic": false
+                },
+                "minecraft:item_name": "",
+                "minecraft:rarity": "common",
+                "item_model": "crossbow",
+                "consumable": {
+                  "consume_seconds": 2,
+                  "animation": "crossbow",
+                  "sound": "intentionally_empty",
+                  "has_consume_particles": false
+                },
+                "use_cooldown": {
+                  "seconds": 3
+                },
+                "!jukebox_playable": {},
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 2,
+                  "name": {
+                    "text": "残響の弓",
+                    "color": "aqua"
+                  }
+                },
+                "money": {
+                  "price": 100
+                },
+                "loot_table": "dun:gen/equipments/bow",
+                "usable": {
+                  "loot_table": "dun:gen/equipments/bow",
+                  "command": "function dun:item/arrow"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "attack_damage",
+                  "amount": 0,
+                  "operation": "add_value",
+                  "id": "minecraft:base_attack_damage",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "attack_speed",
+                  "amount": 0,
+                  "operation": "add_value",
+                  "id": "minecraft:base_attack_speed",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

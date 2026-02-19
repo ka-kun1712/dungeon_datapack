@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 2,
-                    "name": {
-                      "text": "カチコチジュース",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "奇妙な色のジュース",
-                      "飲むと足が遅くなる代わりに敵の攻撃を弱くできる"
-                    ]
-                  },
-                  "money": {
-                    "price": 400
-                  },
-                  "loot_table": "dun:gen/items/potion_turtle_master"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 2,
+                  "name": {
+                    "text": "カチコチジュース",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "奇妙な色のジュース",
+                    "飲むと足が遅くなる代わりに敵の攻撃を弱くできる"
+                  ]
+                },
+                "money": {
+                  "price": 400
+                },
+                "loot_table": "dun:gen/items/potion_turtle_master"
               }
             },
             {

@@ -8,8 +8,11 @@
   "license": "UNLICENSED",
   "packageManager": "pnpm@10.28.1",
   "devDependencies": {
-    "@types/node": "^25.2.2",
+    "@types/node": "^25.2.3",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "es-toolkit": "^1.44.0"
   }
 }

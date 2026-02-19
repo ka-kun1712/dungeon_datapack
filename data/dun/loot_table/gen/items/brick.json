@@ -10,29 +10,32 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 1,
-                    "name": {
-                      "text": "生チョコレート",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "所謂高級チョコレート",
-                      "とても美味しい"
-                    ]
-                  },
-                  "money": {
-                    "price": 40
-                  },
-                  "loot_table": "dun:gen/items/brick"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 1,
+                  "name": {
+                    "text": "生チョコレート",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "所謂高級チョコレート",
+                    "とても美味しい"
+                  ]
+                },
+                "money": {
+                  "price": 40
+                },
+                "loot_table": "dun:gen/items/brick"
               }
             }
           ]

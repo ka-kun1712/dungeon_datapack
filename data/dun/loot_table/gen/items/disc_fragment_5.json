@@ -10,28 +10,31 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_data": {
-                  "looting": {
-                    "tier": 2,
-                    "name": {
-                      "text": "何かの破片",
-                      "color": "white"
-                    },
-                    "lore": [
-                      "触ると痛い"
-                    ]
-                  },
-                  "money": {
-                    "price": 500
-                  },
-                  "loot_table": "dun:gen/items/disc_fragment_5"
-                },
                 "minecraft:custom_name": {
                   "text": "?????",
                   "italic": false
                 },
                 "minecraft:item_name": "",
                 "minecraft:rarity": "common"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "looting": {
+                  "tier": 2,
+                  "name": {
+                    "text": "何かの破片",
+                    "color": "white"
+                  },
+                  "lore": [
+                    "触ると痛い"
+                  ]
+                },
+                "money": {
+                  "price": 500
+                },
+                "loot_table": "dun:gen/items/disc_fragment_5"
               }
             }
           ]
