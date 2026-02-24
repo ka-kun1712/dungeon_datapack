@@ -1,7 +1,7 @@
 scoreboard players remove @s duration 1
 execute as @s[scores={duration=..39,duration=29..},tag=stand] at @s run particle reverse_portal ~ ~0.5 ~ 0 1 0 0.5 10
 execute as @s[scores={duration=25..},tag=stand] at @s run function dun:item/stand/stand_tp2
-execute as @s[scores={duration=25},tag=stand] at @s run tp @s ^ ^ ^1.5 ~15 ~
+execute as @s[scores={duration=25},tag=stand] at @s run tp @s ^0.5 ^ ^1.5 ~15 ~
 execute as @s[scores={duration=..20},tag=stand] at @s run function dun:item/stand/stand_tp
 execute as @s[scores={duration=20},tag=stand] at @s run function dun:item/stand/stand_p1
 execute as @s[scores={duration=19},tag=stand] at @s run function dun:item/stand/stand_p2
